@@ -1,0 +1,18 @@
+{
+  "name": "Personal Empirical Research Workflow",
+  "short_name": "PERW",
+  "current_version": "v1.1",
+  "status": "stable",
+  "breaking_change_from_v1_0": true,
+  "entrypoints": {
+    "current": "CURRENT.md",
+    "principles": "core/PRINCIPLES.md",
+    "workflow": "core/WORKFLOW.md",
+    "role_routing": "core/ROLE_ROUTING.md"
+  },
+  "profiles": {
+    "chatgpt": "bootstrap/CHATGPT.md",
+    "codex": "bootstrap/CODEX.md",
+    "hermes_study": "bootstrap/HERMES_STUDY.md"
+  }
+}
