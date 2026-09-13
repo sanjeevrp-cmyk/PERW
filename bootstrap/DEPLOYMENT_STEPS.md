@@ -12,7 +12,7 @@ In the single ChatGPT Project, keep a short project instruction derived from `bo
 Configure a user/global Codex instruction with `bootstrap/CODEX.md`. Each paper keeps its own local folder exactly as before. A paper-specific AGENTS.md is optional and contains only project-specific rules, not another copy of PERW.
 
 ## 4. Hermes
-Place `bootstrap/HERMES_STUDY.md` only in the Hermes **Study Profile** instructions. Other profiles do not reference PERW.
+Place `bootstrap/HERMES_RESEARCH.md` only in the Hermes **Research Profile** instructions. Other Hermes profiles must not load PERW.
 
 ## 5. Updating PERW
 Edit only the GitHub workflow repository. For each release update CURRENT.md and CHANGELOG.md, and mark whether the change is breaking. New paper projects use current stable PERW; ongoing projects do not silently migrate across breaking changes.

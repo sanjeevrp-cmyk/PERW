@@ -15,7 +15,7 @@ PERW is upgraded from a paper workflow into a multi-agent research operating sys
 - execution report protocol;
 - structural escalation protocol;
 - independent replication protocol;
-- new bootstrap files for ChatGPT, Codex, and Hermes Study Profile;
+- new bootstrap files for ChatGPT, Codex, and Hermes Research Profile;
 - minimal-load GitHub protocol through `CURRENT.md`;
 - Workflow Update Governance for assessed, classified, and reversible PERW improvement;
 - rule that new projects use current stable PERW while ongoing projects do not silently migrate across breaking changes.
@@ -25,6 +25,10 @@ PERW is upgraded from a paper workflow into a multi-agent research operating sys
 ChatGPT is not limited to topic discussion. It may act as Research Director, Co-Researcher, internal editor, literature/policy/web researcher, identification critic, evidence synthesizer, journal-positioning adviser, and task orchestrator.
 
 Codex and Hermes primarily execute and audit research designs. They may identify design failures but may not silently redefine the research question, treatment, estimand, primary outcome, or identifying assumption.
+
+### PATCH
+
+- Corrected Hermes research-profile routing from “Study Profile” to “Research Profile”; no change to agent authority or research workflow.
 
 ### v1.0 baseline
 

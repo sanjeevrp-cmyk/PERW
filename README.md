@@ -5,7 +5,7 @@ PERW is a personal research operating system for empirical finance/economics pap
 It is designed to be read automatically by:
 - **ChatGPT** — Research Director / Co-Researcher / Internal Editor
 - **Codex** — Primary Empirical Research Engineer / Data Auditor
-- **Hermes Study Profile** — Empirical Research Engineer / Independent Analyst / Auditor
+- **Hermes Research Profile** — Empirical Research Engineer / Independent Analyst / Auditor
 
 PERW stores **how research should be conducted**. It does **not** store individual paper projects, unpublished ideas, private data, empirical results, or submission files.
 

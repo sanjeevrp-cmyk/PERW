@@ -13,6 +13,6 @@
   "profiles": {
     "chatgpt": "bootstrap/CHATGPT.md",
     "codex": "bootstrap/CODEX.md",
-    "hermes_study": "bootstrap/HERMES_STUDY.md"
+    "hermes_research": "bootstrap/HERMES_RESEARCH.md"
   }
 }

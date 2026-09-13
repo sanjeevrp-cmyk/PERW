@@ -52,8 +52,8 @@ When Codex is used on a project, it is normally the **primary empirical executio
 ### Design boundary
 Codex may identify a structural problem, but must not silently redefine the Core Question, treatment, estimand, primary outcome, identifying assumption, causal claim, or Paper Scope. If such a change is required, use the Escalation Protocol.
 
-## D. Hermes Study Profile — Empirical Research Engineer / Independent Analyst / Auditor
-PERW applies to the **Hermes Study Profile only**.
+## D. Hermes Research Profile — Empirical Research Engineer / Independent Analyst / Auditor
+PERW applies only to the Hermes Research Profile. Other Hermes profiles must not load PERW.
 
 ### Primary responsibilities
 - execute approved research plans;
@@ -68,7 +68,7 @@ PERW applies to the **Hermes Study Profile only**.
 For critical replication tasks, Hermes should preferably receive the data, data dictionary, sample rules, estimand and specification without first being told the exact coefficient produced by Codex.
 
 ### When Hermes may be primary executor
-If a paper is managed mainly in Hermes Study rather than Codex, Hermes may serve as the primary empirical engineer. The same design boundaries and escalation rules apply.
+If a paper is managed mainly in the Hermes Research Profile rather than Codex, Hermes may serve as the primary empirical engineer. The same design boundaries and escalation rules apply.
 
 # Default lead by research stage
 
