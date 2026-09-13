@@ -8,6 +8,8 @@ PRINCIPLES: `core/PRINCIPLES.md`
 ROLE_ROUTING: `core/ROLE_ROUTING.md`  
 CHANGELOG: `CHANGELOG.md`
 
+PERW supports controlled continuous improvement. Proposed changes must first pass `protocols/workflow_update_governance.md`; external ideas and project-specific experience are never adopted without assessment.
+
 ## Agent loading rule
 
 For a **new empirical-paper project**, use the current stable PERW version.
@@ -24,3 +26,4 @@ For an **ongoing project**:
 3. Read `core/ROLE_ROUTING.md`.
 4. Read `core/WORKFLOW.md`.
 5. Load only the stage / gate / protocol files needed for the current task.
+6. Before modifying PERW itself, read `protocols/workflow_update_governance.md`.

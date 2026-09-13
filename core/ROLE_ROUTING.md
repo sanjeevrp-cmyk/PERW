@@ -89,3 +89,10 @@ If a paper is managed mainly in Hermes Study rather than Codex, Hermes may serve
 | Referee simulation | ChatGPT | Hermes optional independent referee audit |
 | Replication audit | Hermes/Codex | ChatGPT synthesizes |
 | Submission decision | PI + ChatGPT | Executors audit package |
+
+# PERW update governance
+
+- ChatGPT may propose and evaluate PERW improvements.
+- Codex is responsible for governed implementation, validation, commits, and version engineering.
+- The PI has final approval authority for every breaking PERW change.
+- All proposed changes follow `protocols/workflow_update_governance.md` before implementation.

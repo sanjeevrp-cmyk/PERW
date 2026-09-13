@@ -17,6 +17,7 @@ PERW is upgraded from a paper workflow into a multi-agent research operating sys
 - independent replication protocol;
 - new bootstrap files for ChatGPT, Codex, and Hermes Study Profile;
 - minimal-load GitHub protocol through `CURRENT.md`;
+- Workflow Update Governance for assessed, classified, and reversible PERW improvement;
 - rule that new projects use current stable PERW while ongoing projects do not silently migrate across breaking changes.
 
 ### Clarified
