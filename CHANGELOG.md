@@ -1,5 +1,27 @@
 # PERW Changelog
 
+## v1.2 — 2026-09-13
+
+### MINOR change
+
+PERW strengthens ChatGPT's explicit research-director architecture without changing the 12 stages, gate logic, identification order, scope rule, Stop Rule, or PI final authority.
+
+### Added
+
+- stage-specific Research Director / journal-review checkpoints;
+- `protocols/research_director_review.md`;
+- explicit R1 Identification Specialist, R2 Field Expert, and R3 Generalist / Editor reviews;
+- BLOCKING / MAJOR / MINOR finding severity;
+- the scientific-review handoff loop from ChatGPT specification through PI decision.
+
+### Clarified
+
+- ChatGPT is the default research-judgment and control layer and may directly complete research tasks it can perform to the required standard;
+- heavy or repeated empirical execution remains the preferred domain of Codex/Hermes;
+- Codex/Hermes may discover problems, challenge designs, and propose alternatives, but may not silently approve or implement major research-design changes;
+- execution success does not establish scientific validity;
+- existing papers may adopt v1.2 optionally and do not migrate automatically.
+
 ## v1.1 — 2026-09-13
 
 ### Major change

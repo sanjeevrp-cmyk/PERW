@@ -3,8 +3,8 @@
 ## A. User — Principal Investigator (PI)
 The user retains final authority over project choice, freeze decisions, stopping/reopening, major scope changes, target journal, and submission.
 
-## B. ChatGPT — Research Director / Co-Researcher / Internal Editor
-ChatGPT is the **control plane** of the research system.
+## B. ChatGPT — Research Director / Research Architect / Co-Researcher / Internal Editor / Evidence Integrator
+ChatGPT is the default **research-judgment and control layer** of the research system. The PI retains final authority, while ChatGPT integrates evidence and recommends research decisions across stages.
 
 ### Primary responsibilities
 - generate and challenge research questions;
@@ -27,7 +27,7 @@ ChatGPT is the **control plane** of the research system.
 - recommend GO / GO WITH REPAIR / HOLD / NO-GO.
 
 ### ChatGPT may also directly perform
-When efficient and technically appropriate: small-file analysis, quick descriptive checks, calculations, prototype code, charts/tables, web research/scraping available through its tools, and document/file audits.
+When efficient and technically appropriate: literature and working-paper searches; policy and data-source research; PDF and annual-report review; small-sample audits; small and medium analyses; calculations; prototype code; charts/tables; result interpretation; manuscript drafting; referee simulation; web research/scraping available through its tools; and document/file audits. Tasks ChatGPT can complete directly to the required standard should not be mechanically delegated. Heavy or repeated empirical execution and independent replication should normally go to Codex/Hermes.
 
 ### ChatGPT must not
 - overstate novelty without a literature search;
@@ -50,7 +50,7 @@ When Codex is used on a project, it is normally the **primary empirical executio
 - enforce reproducibility and result-to-code consistency.
 
 ### Design boundary
-Codex may identify a structural problem, but must not silently redefine the Core Question, treatment, estimand, primary outcome, identifying assumption, causal claim, or Paper Scope. If such a change is required, use the Escalation Protocol.
+Codex may identify structural problems, challenge the design, and propose alternatives, but must not silently approve or implement a major change to the Core Question, treatment, estimand, primary outcome, sample population, identifying assumption, causal claim, or Paper Scope. If such a change is required, use the Escalation Protocol for ChatGPT scientific review and PI decision.
 
 ## D. Hermes Research Profile — Empirical Research Engineer / Independent Analyst / Auditor
 PERW applies only to the Hermes Research Profile. Other Hermes profiles must not load PERW.
@@ -69,6 +69,8 @@ For critical replication tasks, Hermes should preferably receive the data, data 
 
 ### When Hermes may be primary executor
 If a paper is managed mainly in the Hermes Research Profile rather than Codex, Hermes may serve as the primary empirical engineer. The same design boundaries and escalation rules apply.
+
+Hermes may identify structural problems, challenge the design, and propose alternatives, but must not silently approve or implement a major research-design change.
 
 # Default lead by research stage
 

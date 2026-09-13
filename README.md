@@ -3,7 +3,7 @@
 PERW is a personal research operating system for empirical finance/economics papers.
 
 It is designed to be read automatically by:
-- **ChatGPT** — Research Director / Co-Researcher / Internal Editor
+- **ChatGPT** — Research Director / Research Architect / Co-Researcher / Internal Editor / Evidence Integrator
 - **Codex** — Primary Empirical Research Engineer / Data Auditor
 - **Hermes Research Profile** — Empirical Research Engineer / Independent Analyst / Auditor
 
@@ -42,6 +42,8 @@ PERW/
 Research proceeds through:
 
 **divergence → candidate comparison → parallel feasibility gates → claim/scope freeze → identification → data engineering → primary evidence → threat-mapped robustness → mechanism → claim ladder → writing → adversarial review**
+
+ChatGPT provides stage-specific research-judgment checkpoints through `protocols/research_director_review.md`; these checkpoints do not alter the 12-stage structure or existing gate, identification, scope, and stop rules.
 
 The system separates:
 - **Core Question**

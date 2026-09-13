@@ -1,8 +1,8 @@
 # PERW Current Release
 
-CURRENT_VERSION: **v1.1**  
+CURRENT_VERSION: **v1.2**  
 STATUS: **stable**  
-BREAKING_CHANGE_FROM_v1.0: **YES — agent-role and handoff architecture added**  
+BREAKING_CHANGE_FROM_v1.1: **NO**  
 WORKFLOW_ENTRY: `core/WORKFLOW.md`  
 PRINCIPLES: `core/PRINCIPLES.md`  
 ROLE_ROUTING: `core/ROLE_ROUTING.md`  

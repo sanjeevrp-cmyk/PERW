@@ -1,10 +1,12 @@
-# PERW v1.1 — Personal Empirical Research Workflow
+# PERW v1.2 — Personal Empirical Research Workflow
 
 ## Stage 0 — Goal Lock
 Record target discipline/journal tier, publication speed versus ceiling, acceptable workload, available databases, unavailable/private-data constraints, time horizon, and execution capacity.
 
 ## Stage 1 — Divergent Sprint
 Before feasibility criticism collapses the idea: generate ≥3 economic questions, ≥3 candidate outcomes/estimands, ≥2 identification routes, rival explanations, and cross-literature connections. No formal regressions.
+
+**Research Director checkpoint:** apply the Stage 0–1 Research Architect / Co-Researcher review in `protocols/research_director_review.md`.
 
 ## Stage 2 — Candidate Cards
 For each candidate record Core Question, friction, shock/policy, assignment, estimand, outcome, data, closest literature, rival explanation, identification threat, workload, journal ceiling, and cheapest kill test. Compare before commitment.
@@ -17,6 +19,8 @@ Freeze Core Question, Identified Claim, Paper Scope, unit, treatment, primary ou
 
 ## Stage 5 — Identification Blueprint
 Mandatory order: assignment → counterfactual → estimand → identifying assumption → estimator → inference → diagnostics → falsification. Identification must survive a reviewer-facing pre-mortem.
+
+**Research Director checkpoint:** apply the Stage 2–5 Research Director + SSCI Q2+ Shadow Referee review.
 
 ## Stage 6 — Data Engineering & Pre-analysis Freeze
 Build data dictionary, raw-to-clean pipeline, sample funnel, event/entity IDs, treatment audit, variable-construction log, missingness audit, and reproducible master script. Where feasible, freeze primary sample/outcome/specification before result-driven iteration.
@@ -33,11 +37,15 @@ Mechanisms follow the main effect. Prefer tests that distinguish favored channel
 ## Stage 10 — Claim Ladder
 Classify the strongest supported statement: descriptive fact → association → causal effect → causal mechanism → external generalization. Do not claim above the supported level.
 
+**Research Director checkpoint:** apply the Stage 6–10 Research Director / Evidence Integrator review.
+
 ## Stage 11 — Writing
 Recommended order: institution/background → data → empirical strategy → main results → robustness → mechanisms → conclusion → introduction → abstract. Verify citations, avoid invented references, keep abstract claims within evidence, and leave unresolved facts as TODO.
 
 ## Stage 12 — Adversarial Review
 Use R1 Identification Specialist, R2 Field Expert, and R3 Generalist/Editor. Classify blocking/major/minor comments. Do not recommend submission while blocking comments remain.
+
+**Research Director checkpoint:** apply the Stage 11–12 Internal Editor + SSCI Q2/Q1 Referee review.
 
 ## Stop rule
 Stop/HOLD if treatment cannot be recovered, outcome does not measure intended estimand, treated support is structurally insufficient, contribution is occupied, counterfactual is invalid, concurrent policy destroys identification, or essential data are unavailable.
