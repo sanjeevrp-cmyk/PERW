@@ -1,5 +1,36 @@
 # PERW Changelog
 
+## v2.0 — 2026-09-14
+
+### BREAKING change
+
+PERW becomes a multi-architecture empirical research workflow. It no longer treats a policy/shock causal design as the universal starting point, while preserving the full identification standard for every causal claim.
+
+### Changed
+
+- broadened the research domain to high-quality empirical economics, management, finance, and related fields;
+- redesigned Stage 0–5 around research genesis, Claim Type, Evidence Architecture, routed gates, and an Evidence & Identification Blueprint;
+- generalized Stage 6–10 for measurement, viewpoint-guided, descriptive, spatial, network, and causal evidence;
+- replaced universal treatment-based stop conditions with universal and causal-conditional rules;
+- generalized role, handoff, replication, escalation, and execution-spec language without changing PI/ChatGPT/Codex/Hermes authority.
+
+### Added
+
+- universal Research Architecture Fit Gate;
+- conditional Proposition / Rival-Discrimination, Construct Validity, and Geographic Scope / Spatial Validity Gates;
+- Viewpoint-to-Evidence Protocol;
+- Paper Architecture Reverse-Engineering Protocol.
+
+### Preserved
+
+- Stage 0–12 structure;
+- **Paper Scope ≤ Identified Claim ≤ Evidence**;
+- full causal sequence: assignment → counterfactual → estimand → identifying assumption → estimator → inference → diagnostics → falsification;
+- scientific-value, divergence, cheap-information, threat-mapped robustness, no-significance-hunting, no-complexity-rescue, reproducibility, independent-verification, and critical-collaboration principles;
+- PI final authority and executor design boundaries.
+
+Archived projects do not migrate automatically. A reopened project requires a separate PERW migration assessment.
+
 ## v1.2 — 2026-09-13
 
 ### MINOR change

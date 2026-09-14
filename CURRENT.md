@@ -1,14 +1,18 @@
 # PERW Current Release
 
-CURRENT_VERSION: **v1.2**  
-STATUS: **stable**  
-BREAKING_CHANGE_FROM_v1.1: **NO**  
-WORKFLOW_ENTRY: `core/WORKFLOW.md`  
-PRINCIPLES: `core/PRINCIPLES.md`  
-ROLE_ROUTING: `core/ROLE_ROUTING.md`  
+CURRENT_VERSION: **v2.0**
+STATUS: **stable**
+BREAKING_CHANGE_FROM_v1.2: **YES — research domain, early-stage architecture, routed gates, scope contract, and Stop/Go logic generalized**
+WORKFLOW_ENTRY: `core/WORKFLOW.md`
+PRINCIPLES: `core/PRINCIPLES.md`
+ROLE_ROUTING: `core/ROLE_ROUTING.md`
 CHANGELOG: `CHANGELOG.md`
 
 PERW supports controlled continuous improvement. Proposed changes must first pass `protocols/workflow_update_governance.md`; external ideas and project-specific experience are never adopted without assessment.
+
+## v2.0 breaking change
+
+PERW now supports multiple empirical research architectures. Policy/shock is no longer mandatory; gates route by Claim Type and Evidence Architecture; causal identification remains mandatory whenever a causal claim is made; and viewpoint, measurement/new-fact, and regional/spatial pathways now have explicit validity standards. Stage 5 is now the Evidence & Identification Blueprint.
 
 ## Agent loading rule
 

@@ -1,3 +1,3 @@
-# 02 Candidate Selection
+# 02 Candidate Architecture
 
-Use common Candidate Cards. Rank by contribution, identification, data feasibility, workload, competition risk, and journal ceiling.
+Use the v2.0 Candidate Card. Rank candidates by scientific importance, residual contribution, Claim Type–Evidence Architecture fit, data/measurement feasibility, validity threats, workload, competition risk, and journal ceiling. Require causal fields only when the intended claim or design is causal.

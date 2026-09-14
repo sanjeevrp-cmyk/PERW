@@ -1,6 +1,8 @@
 # PERW — Personal Empirical Research Workflow
 
-PERW is a personal research operating system for empirical finance/economics papers.
+PERW is a personal research operating system for high-quality empirical economics, management, finance, and related research.
+
+Current stable release: **v2.0**.
 
 It is designed to be read automatically by:
 - **ChatGPT** — Research Director / Research Architect / Co-Researcher / Internal Editor / Evidence Integrator
@@ -12,12 +14,16 @@ PERW stores **how research should be conducted**. It does **not** store individu
 ## Intended research standard
 
 Default use:
-- empirical finance / corporate finance / fintech / technology finance;
+- applied economics, management, regional and industrial economics, development, public and political economy, finance, and related fields;
 - SSCI Q2 or better as the practical target;
-- moderate workload;
+- scientifically meaningful questions and credible evidence;
+- moderate or justified workload;
 - obtainable data;
-- credible identification;
+- evidence architecture matched to the intended claim;
+- full identification standards whenever a causal claim is made;
 - willingness to stop weak projects instead of rescuing them with method stacking.
+
+High-level domestic and international journals may serve as scientific-question, literature, and paper-architecture benchmarks without becoming mandatory submission targets.
 
 ## Repository architecture
 
@@ -41,13 +47,15 @@ PERW/
 
 Research proceeds through:
 
-**divergence → candidate comparison → parallel feasibility gates → claim/scope freeze → identification → data engineering → primary evidence → threat-mapped robustness → mechanism → claim ladder → writing → adversarial review**
+**problem discovery → candidate architecture → routed feasibility gates → claim/scope freeze → evidence and identification blueprint → data/measurement engineering → primary evidence → threat-mapped robustness → mechanism → claim ladder → writing → adversarial review**
 
-ChatGPT provides stage-specific research-judgment checkpoints through `protocols/research_director_review.md`; these checkpoints do not alter the 12-stage structure or existing gate, identification, scope, and stop rules.
+ChatGPT provides stage-specific research-judgment checkpoints through `protocols/research_director_review.md`. Universal gates protect contribution, data/measurement quality, and claim-architecture fit; conditional gates protect causal, viewpoint-guided, measurement/new-fact, and regional/spatial claims.
 
 The system separates:
 - **Core Question**
+- **Claim Type**
 - **Identified Claim**
+- **Evidence Architecture**
 - **Paper Scope**
 
 Failure of one dataset or one design is not automatically failure of the Core Question.

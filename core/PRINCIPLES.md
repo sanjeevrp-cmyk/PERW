@@ -4,36 +4,51 @@
 Do not keep a topic alive because time has already been invested.
 
 ## 2. Diverge before converging
-At the birth of a research idea, do not immediately collapse the project to the first feasible specification. Generate alternative questions, estimands, mechanisms, and designs before applying kill tests.
+At the birth of a research idea, do not immediately collapse the project to the first feasible specification. Generate alternative questions, propositions, mechanisms, claims, and evidence architectures before applying kill tests.
 
-## 3. Identification before estimator
-Reason in this order:
+## 3. Question before design family
+Do not force every research question into a causal-policy design. First determine the scientific question, intended claim, and required evidence; then choose the empirical architecture.
+
+## 4. Claim-design fit
+The evidence architecture must match the intended claim. Do not demand causal identification for a descriptive or measurement claim, and do not use descriptive evidence to support a causal claim.
+
+## 5. Causal identification before estimator
+When a paper makes a causal claim, reason in this mandatory order:
 **assignment → counterfactual → estimand → identifying assumption → estimator → inference → diagnostics → falsification**
 Never begin from “use DID / DDD / IV / DML” and retrofit the research question.
 
-## 4. Evidence boundary
+## 6. Evidence boundary
 **Paper Scope ≤ Identified Claim ≤ Evidence**
 
-## 5. Separate the question from the implementation
-Maintain Core Question, Identified Claim, and Paper Scope as distinct objects. A failed data source or implementation can kill an Identified Claim without killing the Core Question.
+## 7. Separate the question from the implementation
+Maintain Core Question, Claim Type, Identified Claim, Evidence Architecture, and Paper Scope as distinct objects. A failed data source or implementation can kill an Identified Claim without killing the Core Question.
 
-## 6. Cheap information before expensive work
-Before full data engineering, use minimum viable evidence: small samples, field audits, treated/control counts, event-ID checks, policy timing checks, and competition searches.
+## 8. Viewpoint is a hypothesis, not truth
+A scholar's, adviser's, policymaker's, or theoretical viewpoint is an input to question generation. Convert it into **viewpoint → mechanism → falsifiable proposition → observable prediction → rival explanation → required evidence**. Test the proposition; do not search for data merely to confirm its source.
 
-## 7. Threat-mapped robustness
+## 9. Geographic narrowing is not contribution
+Moving from a broad geography to a narrower one is not itself novelty. The narrower setting must add scientific value through identification, measurement, mechanism, institutional variation, spatial interaction, data quality, external relevance, or another defensible reason.
+
+## 10. Architecture borrowing is not contribution
+High-level papers may be reverse-engineered for question architecture, construct design, empirical logic, measurement, identification, mechanism, and exposition. Reproducing the same design with only a different geography, year, sample, or outcome is not automatically a contribution.
+
+## 11. Cheap information before expensive work
+Before full data engineering, use minimum viable evidence: small samples, field audits, support counts, identifier checks, construct checks, policy timing checks when relevant, and competition searches.
+
+## 12. Threat-mapped robustness
 Every robustness test must correspond to a named threat. Do not pad the paper with generic robustness tables.
 
-## 8. No significance hunting
+## 13. No significance hunting
 Do not switch outcomes, samples, treatments, or heterogeneity dimensions merely to obtain significance.
 
-## 9. No complexity rescue
-PSM, DML, machine learning, mediation, fixed-effect proliferation, or arbitrary IVs do not repair a weak assignment mechanism.
+## 14. No complexity rescue
+PSM, DML, machine learning, mediation, fixed-effect proliferation, spatial or network complexity, or arbitrary IVs do not repair a weak design, invalid measurement, claim-evidence mismatch, or weak assignment mechanism.
 
-## 10. Reproducibility is part of research quality
+## 15. Reproducibility is part of research quality
 Data construction, variable definitions, sample funnels, seeds, specifications, and output generation should be auditable.
 
-## 11. Independent verification for high-stakes results
+## 16. Independent verification for high-stakes results
 Key empirical findings should receive an independent implementation or audit when practical.
 
-## 12. Critical collaboration
+## 17. Critical collaboration
 Agents should challenge false premises, logical jumps, missing information, and structural risks rather than agreeing for convenience.

@@ -8,7 +8,7 @@ Candidates may come from:
 
 - high-quality GitHub research skills or workflows;
 - new econometric methods or best practices;
-- SSCI, economics, or finance journal-review experience;
+- SSCI, economics, management, finance, and high-level domestic or international journal-review experience;
 - successful or failed paper-project experience;
 - workflow defects identified by ChatGPT, Codex, or Hermes;
 - adviser, referee, or editor feedback;
@@ -40,11 +40,13 @@ DECISION: ADOPT / HOLD / REJECT
 The assessment must determine whether the proposal:
 
 - solves a real weakness in the current PERW;
-- generalizes across empirical-finance projects rather than one paper;
-- fits the user's long-term focus on empirical finance, corporate finance, and fintech; SSCI Q2 or better; moderate workload; obtainable data; credible identification; and no method stacking to rescue weak projects;
+- generalizes across high-quality empirical research projects rather than one paper or substantive topic;
+- supports applied economics, management, regional and industrial economics, development, public and political economy, finance, and related fields;
+- fits the user's practical default of SSCI Q2 or better, a scientifically meaningful question, credible evidence, moderate or justified workload, obtainable data, willingness to stop weak projects, and no method stacking to rescue weak designs;
+- permits high-level domestic and international journals to serve as scientific-question, literature, and paper-architecture benchmarks without making them mandatory submission targets;
 - improves efficiency, identification quality, data quality, writing quality, review survival, or reproducibility;
 - adds justified complexity and does not conflict with existing rules;
-- could affect an active paper's treatment, estimand, outcome, sample, identification, gate decision, or Paper Scope;
+- could affect an active paper's Claim Type, Evidence Architecture, key construct, primary evidence, geography, sample, gate decision, Paper Scope, or causal design objects;
 - is supported by inspectable evidence.
 
 Only `DECISION: ADOPT` permits a PERW modification.
@@ -65,7 +67,7 @@ Codex may assess, modify, test, commit, and push. The update report must state w
 
 ### BREAKING
 
-Any change to stage structure, gate-passing criteria, treatment or estimand principles, identification rules, primary-outcome selection logic, agent research authority, scope-freeze principles, or Stop/Go rules.
+Any change to stage structure, gate routing or passing criteria, Claim Type or Evidence Architecture principles, treatment or estimand principles, identification rules, primary-evidence selection logic, agent research authority, scope-freeze principles, or Stop/Go rules.
 
 Codex must not apply a breaking change automatically. It must:
 

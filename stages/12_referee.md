@@ -4,7 +4,7 @@ Run a hostile but evidence-anchored internal review under `protocols/research_di
 
 ## Reviewers
 
-- **R1 Identification Specialist:** audit assignment, counterfactual, estimand, identifying assumptions, inference, diagnostics, falsification, and threats that could invalidate the design.
+- **R1 Identification / Validity Specialist:** audit Claim Type–Evidence Architecture fit, construct validity, inference, diagnostics, falsification/validation, and design-breaking threats. For causal claims, also audit assignment, counterfactual, estimand, and identifying assumptions under the full causal standard.
 - **R2 Field Expert:** audit contribution, closest published and working-paper literature, institutional facts, mechanism, novelty, and realistic journal ceiling.
 - **R3 Generalist / Editor:** audit importance, coherence, transparency, evidence-to-claim fit, writing, positioning, and submission readiness.
 
