@@ -1,5 +1,27 @@
 # PERW Changelog
 
+## v2.1 — 2026-09-15
+
+### MINOR change
+
+PERW adds a data-access and PI-handoff workflow that separates executor permissions from team data availability and scientific data validity.
+
+### Added
+
+- `protocols/data_access_handoff.md` with agent-first acquisition, restricted-access pause, branch-level continuation, validation, and checkpoint-resume rules;
+- standard states: AUTO_ACCESSIBLE, ACCESS_BLOCKED_PI_REQUIRED, DELIVERED_PENDING_VALIDATION, VALIDATED, and TRULY_UNAVAILABLE;
+- `templates/PI_DATA_REQUEST.md` for precise restricted-data requests.
+
+### Clarified
+
+- executor access failure is not PI access failure, team unavailability, measurement failure, or design failure;
+- a restricted-access pause keeps the Data / Measurement Gate pending rather than causing NO-GO;
+- only team-level legal unavailability or genuine unobservability supports the existing data-unavailability Stop condition;
+- Codex and Hermes autonomously acquire lawfully accessible data, never request credentials or bypass controls, validate PI-delivered files, and resume from the recorded checkpoint;
+- Stage structure, scientific Gate criteria, causal identification standards, and agent research authority are unchanged.
+
+Active papers may adopt v2.1 without migrating frozen research-design objects.
+
 ## v2.0 — 2026-09-14
 
 ### BREAKING change

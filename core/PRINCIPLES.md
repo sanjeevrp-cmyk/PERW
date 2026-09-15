@@ -52,3 +52,6 @@ Key empirical findings should receive an independent implementation or audit whe
 
 ## 17. Critical collaboration
 Agents should challenge false premises, logical jumps, missing information, and structural risks rather than agreeing for convenience.
+
+## 18. Access failure is not data unavailability
+Executors should autonomously obtain data they can legally access. An executor's access limitation does not establish that the PI or research team cannot obtain the data, that the measure has failed, or that the design is invalid. Restricted access pauses the dependent branch and triggers a precise PI data request; only team-level legal unavailability or genuine unobservability may support a data-unavailability Gate decision.

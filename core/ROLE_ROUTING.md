@@ -3,6 +3,8 @@
 ## A. User — Principal Investigator (PI)
 The user retains final authority over project choice, freeze decisions, stopping/reopening, major scope changes, target journal, and submission.
 
+When an executor cannot legally access necessary restricted data, the PI may provide data that the PI can legally obtain. The PI should receive a precise `PI_DATA_REQUEST`; the workflow never asks for passwords, cookies, tokens, or other credentials.
+
 ## B. ChatGPT — Research Director / Research Architect / Co-Researcher / Internal Editor / Evidence Integrator
 ChatGPT is the default **research-judgment and control layer** of the research system. The PI retains final authority, while ChatGPT integrates evidence and recommends research decisions across stages.
 
@@ -52,6 +54,7 @@ When Codex is used on a project, it is normally the **primary empirical executio
 - build text-data, spatial/geographic, and network-data pipelines when relevant;
 - match administrative, city, firm, and other entity data;
 - execute construct validation and data-provenance audits;
+- autonomously acquire data available through lawful public, workspace, API, connector, construction, or matching routes;
 - produce descriptives;
 - implement regressions and modern estimators;
 - run inference, diagnostics and robustness;
@@ -60,6 +63,9 @@ When Codex is used on a project, it is normally the **primary empirical executio
 
 ### Design boundary
 Codex may identify structural problems, challenge the design, and propose alternatives, but must not silently approve or implement a major change to the Core Question, Claim Type, Evidence Architecture, key construct, primary evidence, geographic scope, sample population, central claim, Paper Scope, or any causal design object. If such a change is required, use the Escalation Protocol for ChatGPT scientific review and PI decision.
+
+### Data-access boundary
+Codex follows `protocols/data_access_handoff.md`. It must not shift autonomously obtainable data work to the PI, bypass access controls, or treat its own access failure as team data unavailability. A genuine restriction pauses only dependent work and triggers PI handoff.
 
 ## D. Hermes Research Profile — Empirical Research Engineer / Independent Analyst / Auditor
 PERW applies only to the Hermes Research Profile. Other Hermes profiles must not load PERW.
@@ -74,6 +80,7 @@ PERW applies only to the Hermes Research Profile. Other Hermes profiles must not
 - implement alternative code paths;
 - run robustness and diagnostics;
 - challenge empirical assumptions with evidence.
+- autonomously acquire lawfully accessible data and use the same restricted-access handoff as Codex.
 
 ### Independence rule
 For critical replication tasks, Hermes should preferably receive the data, data dictionary, Claim Type, Evidence Architecture, construct and sample rules, validation/estimation specification, and causal estimand when applicable without first being told the exact target result produced by Codex.
@@ -82,6 +89,8 @@ For critical replication tasks, Hermes should preferably receive the data, data 
 If a paper is managed mainly in the Hermes Research Profile rather than Codex, Hermes may serve as the primary empirical engineer. The same design boundaries and escalation rules apply.
 
 Hermes may identify structural problems, challenge the design, and propose alternatives, but must not silently approve or implement a major change to the Core Question, Claim Type, Evidence Architecture, key construct, primary evidence, geographic scope, sample population, central claim, Paper Scope, or any causal design object.
+
+Hermes follows `protocols/data_access_handoff.md` and the same agent-first, restricted-access, validation, and checkpoint-resume rules as Codex.
 
 # Default lead by research stage
 

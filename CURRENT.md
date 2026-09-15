@@ -1,14 +1,18 @@
 # PERW Current Release
 
-CURRENT_VERSION: **v2.0**
+CURRENT_VERSION: **v2.1**
 STATUS: **stable**
-BREAKING_CHANGE_FROM_v1.2: **YES — research domain, early-stage architecture, routed gates, scope contract, and Stop/Go logic generalized**
+BREAKING_CHANGE_FROM_v2.0: **NO**
 WORKFLOW_ENTRY: `core/WORKFLOW.md`
 PRINCIPLES: `core/PRINCIPLES.md`
 ROLE_ROUTING: `core/ROLE_ROUTING.md`
 CHANGELOG: `CHANGELOG.md`
 
 PERW supports controlled continuous improvement. Proposed changes must first pass `protocols/workflow_update_governance.md`; external ideas and project-specific experience are never adopted without assessment.
+
+## v2.1 minor change
+
+PERW now distinguishes executor access, PI/team access, delivered-data validation, true team-level unavailability, and scientific data failure. Executors acquire lawfully accessible data autonomously; genuine restrictions trigger a branch-level pause and precise PI data handoff rather than an automatic Gate failure.
 
 ## v2.0 breaking change
 
