@@ -2,7 +2,7 @@
 
 PERW is a personal research operating system for high-quality empirical economics, management, finance, and related research.
 
-Current stable release: **v2.1**.
+Current stable release: **v2.2**.
 
 It is designed to be read automatically by:
 - **ChatGPT** — Research Director / Research Architect / Co-Researcher / Internal Editor / Evidence Integrator
@@ -52,6 +52,8 @@ Research proceeds through:
 ChatGPT provides stage-specific research-judgment checkpoints through `protocols/research_director_review.md`. Universal gates protect contribution, data/measurement quality, and claim-architecture fit; conditional gates protect causal, viewpoint-guided, measurement/new-fact, and regional/spatial claims.
 
 Data access follows `protocols/data_access_handoff.md`: executors autonomously obtain lawfully accessible data, restricted sources trigger a precise PI handoff, and executor access failure never substitutes for a scientific Data / Measurement Gate judgment.
+
+Stage 11–12 manuscript work follows `protocols/manuscript_argument_integrity.md`: lead with supported claims, retain material limits and unfavorable evidence, and review the exact submission deliverable.
 
 The system separates:
 - **Core Question**

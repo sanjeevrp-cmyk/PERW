@@ -6,7 +6,7 @@ Run a hostile but evidence-anchored internal review under `protocols/research_di
 
 - **R1 Identification / Validity Specialist:** audit Claim Type–Evidence Architecture fit, construct validity, inference, diagnostics, falsification/validation, and design-breaking threats. For causal claims, also audit assignment, counterfactual, estimand, and identifying assumptions under the full causal standard.
 - **R2 Field Expert:** audit contribution, closest published and working-paper literature, institutional facts, mechanism, novelty, and realistic journal ceiling.
-- **R3 Generalist / Editor:** audit importance, coherence, transparency, evidence-to-claim fit, writing, positioning, and submission readiness.
+- **R3 Generalist / Editor:** audit importance, coherence, transparency, evidence-to-claim fit, writing, positioning, and submission readiness. Add an **Argument & Prose Integrity Pass** under `protocols/manuscript_argument_integrity.md`: check whether empty caveats bury the contribution; process chronology displaces argument; unnecessary hedges or self-criticism add no information; major sections have a reader function; primary evidence is central; Introduction, Results, Conclusion, and Abstract tell the same evidence-bounded story; Title and Abstract stay within the evidence boundary; limitations are concrete; relevant unfavorable evidence is not hidden or demoted; and results have not caused post-hoc story drift.
 
 Each reviewer should provide an independent assessment before ChatGPT synthesizes overlaps, disagreements, and required actions.
 

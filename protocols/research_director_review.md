@@ -40,9 +40,9 @@ Use three distinct lenses:
 
 - **R1 Identification / Validity Specialist:** Claim Type–Evidence Architecture fit, construct validity, inference, falsification/validation, and design-breaking threats; for causal claims, assignment, counterfactual, estimand, and identifying assumptions;
 - **R2 Field Expert:** contribution, closest literature, institutional accuracy, mechanism, novelty, and field-level journal ceiling;
-- **R3 Generalist / Editor:** importance, coherence, transparency, evidence-to-claim fit, writing, positioning, and submission readiness.
+- **R3 Generalist / Editor:** importance, coherence, transparency, evidence-to-claim fit, writing, positioning, and submission readiness. Run the Argument & Prose Integrity Pass in `protocols/manuscript_argument_integrity.md`: clear contribution without empty defensive prose; argument rather than process chronology; section function and primary-evidence focus; alignment across Introduction, Results, Conclusion, Abstract, and Title; concrete limitations; no hidden unfavorable evidence or post-hoc story drift.
 
-**Checkpoint:** synthesize the three reviews, resolve every BLOCKING issue, and verify manuscript-to-evidence consistency before recommending submission.
+**Checkpoint:** synthesize the three reviews, resolve every BLOCKING issue, and verify manuscript-to-evidence consistency on the exact submission deliverable after the last material edit before recommending submission.
 
 ## Finding severity
 

@@ -1,4 +1,4 @@
-# PERW v2.1 — Personal Empirical Research Workflow
+# PERW v2.2 — Personal Empirical Research Workflow
 
 ## Stage 0 — Goal & Research Domain Lock
 Record target journal tier, publication speed versus ceiling, acceptable workload, available databases, execution capacity, broad disciplinary domain, allowable evidence architectures, time horizon, and any geographic-scope constraints. The default publication goal is SSCI Q2 or better; do not lock the project into a single substantive field.
@@ -40,10 +40,10 @@ Classify the strongest supported statement: validated measure/new fact, descript
 **Research Director checkpoint:** apply the Stage 6–10 Research Director / Evidence Integrator review.
 
 ## Stage 11 — Writing
-Recommended order: institution/background → data → empirical strategy → main results → robustness → mechanisms → conclusion → introduction → abstract. Verify citations, avoid invented references, keep abstract claims within evidence, and leave unresolved facts as TODO.
+Build the argument architecture under `protocols/manuscript_argument_integrity.md`. Stabilize evidence-bearing sections, map the Core Question / Claim / Evidence, use lightweight section and paragraph contracts, then run claim-forward prose, anti-defensive-boundary, two-way alignment, and change-impact checks. Rebuild the Introduction, Abstract, and Title from the stabilized evidence system and audit the exact deliverable. Verify citations, avoid invented references, keep claims within evidence, and leave unresolved facts as TODO.
 
 ## Stage 12 — Adversarial Review
-Use R1 Identification / Validity Specialist, R2 Field Expert, and R3 Generalist/Editor. Classify blocking/major/minor comments. Do not recommend submission while blocking comments remain.
+Use R1 Identification / Validity Specialist, R2 Field Expert, and R3 Generalist/Editor; R3 includes an Argument & Prose Integrity Pass under `protocols/manuscript_argument_integrity.md`. Classify blocking/major/minor comments. Do not recommend submission while blocking comments remain.
 
 **Research Director checkpoint:** apply the Stage 11–12 Internal Editor + SSCI Q2/Q1 Referee review.
 

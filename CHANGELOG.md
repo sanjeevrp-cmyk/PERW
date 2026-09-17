@@ -1,5 +1,13 @@
 # PERW Changelog
 
+## v2.2 — 2026-09-17
+
+### MINOR change
+
+PERW strengthens Stage 11 manuscript argument and Stage 12 referee review with claim-forward, evidence-bounded writing. It adds `protocols/manuscript_argument_integrity.md`, lightweight writing contracts, two-way claim–evidence alignment, change-impact synchronization, and exact-deliverable review. R3 now checks argument and prose integrity, including hidden unfavorable evidence and post-hoc story drift.
+
+Stage 0–10 architecture, Gate decisions, scientific and causal standards, frozen scope, Stop/Go rules, and agent research authority are unchanged. Active papers may optionally adopt v2.2 at Stage 11–12 without redesign; no project migrates automatically.
+
 ## v2.1 — 2026-09-15
 
 ### MINOR change

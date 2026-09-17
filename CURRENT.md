@@ -1,14 +1,18 @@
 # PERW Current Release
 
-CURRENT_VERSION: **v2.1**
+CURRENT_VERSION: **v2.2**
 STATUS: **stable**
-BREAKING_CHANGE_FROM_v2.0: **NO**
+BREAKING_CHANGE_FROM_v2.1: **NO**
 WORKFLOW_ENTRY: `core/WORKFLOW.md`
 PRINCIPLES: `core/PRINCIPLES.md`
 ROLE_ROUTING: `core/ROLE_ROUTING.md`
 CHANGELOG: `CHANGELOG.md`
 
 PERW supports controlled continuous improvement. Proposed changes must first pass `protocols/workflow_update_governance.md`; external ideas and project-specific experience are never adopted without assessment.
+
+## v2.2 minor change
+
+PERW adds a claim-forward, evidence-bounded manuscript argument protocol for Stage 11 writing and Stage 12 review. It sharpens prose without hiding unfavorable evidence, changing frozen research objects, or relaxing scientific validity standards.
 
 ## v2.1 minor change
 
