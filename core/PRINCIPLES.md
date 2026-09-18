@@ -55,3 +55,6 @@ Agents should challenge false premises, logical jumps, missing information, and 
 
 ## 18. Access failure is not data unavailability
 Executors should autonomously obtain data they can legally access. An executor's access limitation does not establish that the PI or research team cannot obtain the data, that the measure has failed, or that the design is invalid. Restricted access pauses the dependent branch and triggers a precise PI data request; only team-level legal unavailability or genuine unobservability may support a data-unavailability Gate decision.
+
+## 19. No implementation bloat
+Research code should use the simplest implementation that preserves scientific correctness, auditability, reproducibility, validation, provenance, and rerunability. Simplicity does not mean the fewest lines of code. Do not add abstractions, dependencies, files, wrappers, configuration layers, or duplicated transformations without a current research need. Follow `protocols/research_code_economy.md`; this implementation principle does not relax the separate no-complexity-rescue rule for research design.

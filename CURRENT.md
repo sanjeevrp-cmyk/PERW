@@ -1,14 +1,18 @@
 # PERW Current Release
 
-CURRENT_VERSION: **v2.2**
+CURRENT_VERSION: **v2.3**
 STATUS: **stable**
-BREAKING_CHANGE_FROM_v2.1: **NO**
+BREAKING_CHANGE_FROM_v2.2: **NO**
 WORKFLOW_ENTRY: `core/WORKFLOW.md`
 PRINCIPLES: `core/PRINCIPLES.md`
 ROLE_ROUTING: `core/ROLE_ROUTING.md`
 CHANGELOG: `CHANGELOG.md`
 
 PERW supports controlled continuous improvement. Proposed changes must first pass `protocols/workflow_update_governance.md`; external ideas and project-specific experience are never adopted without assessment.
+
+## v2.3 minor change
+
+PERW adds a tool-independent Research Code Economy principle for research-code implementation and review. Scientific correctness, auditability, reproducibility, validation, provenance, and rerunability take priority over code compression. Ponytail may assist when installed but is never required.
 
 ## v2.2 minor change
 

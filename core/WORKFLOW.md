@@ -1,4 +1,4 @@
-# PERW v2.2 — Personal Empirical Research Workflow
+# PERW v2.3 — Personal Empirical Research Workflow
 
 ## Stage 0 — Goal & Research Domain Lock
 Record target journal tier, publication speed versus ceiling, acceptable workload, available databases, execution capacity, broad disciplinary domain, allowable evidence architectures, time horizon, and any geographic-scope constraints. The default publication goal is SSCI Q2 or better; do not lock the project into a single substantive field.

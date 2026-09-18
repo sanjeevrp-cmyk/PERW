@@ -1,5 +1,13 @@
 # PERW Changelog
 
+## v2.3 — 2026-09-18
+
+### MINOR change
+
+PERW adds `protocols/research_code_economy.md` and a No Implementation Bloat principle for research-code tasks. Implementations should meet current needs with minimal engineering complexity while preserving scientific correctness, auditability, reproducibility, validation, provenance, and rerunability. Simplicity is not a line-count target. Key research constructions have one authoritative source, and substantive simplification requires output/result equivalence checks. Ponytail is an optional implementation and review aid, not a runtime dependency.
+
+Stage 0–12 structure, Gate routing and criteria, research-design and causal standards, frozen objects, Stop/Go rules, and agent authority are unchanged. Active papers may apply the principle in later code tasks without reassessing their design; stable pipelines need refactoring only when the expected benefit exceeds regression risk. No project migrates automatically.
+
 ## v2.2 — 2026-09-17
 
 ### MINOR change

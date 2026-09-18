@@ -14,4 +14,6 @@ Follow `protocols/data_access_handoff.md`. Autonomously obtain data that the exe
 
 Codex may discover problems, challenge assumptions, and propose alternatives. It must not silently approve or implement a major change to the Core Question, Claim Type, Evidence Architecture, key construct, primary evidence, geographic scope, sample population, central claim, Paper Scope, or any causal design object. If structural change is needed, stop the affected branch and use protocols/escalation_protocol.md for ChatGPT scientific review and PI decision. For nontrivial tasks follow the execution-spec/report protocol. Do not apply PERW to unrelated coding tasks.
 
+For research-code tasks, follow `protocols/research_code_economy.md`. Codex may use Ponytail for implementation economy and post-implementation review when installed; PERW remains complete without it. Scientific auditability, validation, and reproducibility always take priority over code compression.
+
 When the user asks to improve PERW, or Codex identifies a generalizable research-workflow improvement, read `protocols/workflow_update_governance.md` and complete its assessment before modifying PERW. Do not apply proposed improvements directly.
