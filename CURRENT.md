@@ -1,14 +1,18 @@
 # PERW Current Release
 
-CURRENT_VERSION: **v2.3**
+CURRENT_VERSION: **v2.4**
 STATUS: **stable**
-BREAKING_CHANGE_FROM_v2.2: **NO**
+BREAKING_CHANGE_FROM_v2.3: **NO**
 WORKFLOW_ENTRY: `core/WORKFLOW.md`
 PRINCIPLES: `core/PRINCIPLES.md`
 ROLE_ROUTING: `core/ROLE_ROUTING.md`
 CHANGELOG: `CHANGELOG.md`
 
 PERW supports controlled continuous improvement. Proposed changes must first pass `protocols/workflow_update_governance.md`; external ideas and project-specific experience are never adopted without assessment.
+
+## v2.4 minor change
+
+PERW adds a Stage 1–2 Early Data Feasibility / Observability Screen and qualitative candidate/portfolio Data Risk awareness. It keeps scientific questions ahead of data convenience, uses cheap evidence before expensive research commitment, and does not replace or change the formal Stage 3 Data / Measurement Gate.
 
 ## v2.3 minor change
 

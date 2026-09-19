@@ -1,5 +1,15 @@
 # PERW Changelog
 
+## v2.4 — 2026-09-19
+
+### MINOR change
+
+PERW adds `protocols/early_data_feasibility.md`, a Stage 1–2 pre-Gate screen for deciding whether a scientifically worthwhile candidate justifies deeper research and data-engineering effort. Candidate development now records required, observable, and missing evidence; separate observability of the core X/key construct and primary evidence; unit/identifier/time compatibility; critical data layers; historical reconstruction, manual judgment, new-construct and expected-support burdens; access states; failure locality; qualitative Data Risk; and the cheapest feasibility test.
+
+The update protects independent divergence before observability checks, keeps scientific value separate from feasibility, rejects mechanical risk scoring, and adds portfolio awareness without fixed risk quotas. `HIGH` Data Risk is not automatic NO-GO, and `LOW` Data Risk is not automatic GO. PaperSpine's evidence-contract distinction and K-Dense's operationalization, independent-divergence, feasibility, uncertainty, null-value, and bounded-EDA principles informed the update; neither project is a dependency and neither workflow was copied wholesale.
+
+Stage 0–12 structure, Gate routing and passing criteria, Claim Type and Evidence Architecture principles, causal identification standards, Scope Contract, Stop / Reopen rules, data-access governance, and agent authority are unchanged. Stage 3 remains the formal Data / Measurement Gate. Active projects at Stage 3+ do not return to earlier stages; Stage 0–2 projects may adopt the screen optionally; data-HOLD projects reopen only when new evidence changes the blocking condition. No project migrates automatically.
+
 ## v2.3 — 2026-09-18
 
 ### MINOR change

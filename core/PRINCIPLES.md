@@ -33,7 +33,7 @@ Moving from a broad geography to a narrower one is not itself novelty. The narro
 High-level papers may be reverse-engineered for question architecture, construct design, empirical logic, measurement, identification, mechanism, and exposition. Reproducing the same design with only a different geography, year, sample, or outcome is not automatically a contribution.
 
 ## 11. Cheap information before expensive work
-Before full data engineering, use minimum viable evidence: small samples, field audits, support counts, identifier checks, construct checks, policy timing checks when relevant, and competition searches.
+Do not spend expensive research effort before cheap evidence shows that the evidence required by a scientifically worthwhile question is sufficiently observable and implementable. Before deep literature, design, or data-engineering commitment, distinguish required, observable, and missing evidence and use minimum viable checks such as schema inspection, small representative audits, pilot extraction, support counts, identifier checks, construct checks, policy timing checks when relevant, and competition searches. Data ease does not determine which questions are scientifically valuable; it determines how much further effort is justified before feasibility is verified. Follow `protocols/early_data_feasibility.md` for Stage 1–2 candidates.
 
 ## 12. Threat-mapped robustness
 Every robustness test must correspond to a named threat. Do not pad the paper with generic robustness tables.

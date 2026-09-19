@@ -9,6 +9,8 @@ This protocol makes ChatGPT the default **research-judgment and control layer** 
 - decompose viewpoints with `protocols/viewpoint_to_evidence.md`;
 - reverse-engineer domestic and international high-level paper architecture with `protocols/paper_architecture_reverse_engineering.md`;
 - protect useful divergence before feasibility filtering;
+- identify concentration in unverified data engineering without allowing data convenience to generate or define the questions;
+- trigger cheap observability checks under `protocols/early_data_feasibility.md` before a promising candidate receives expensive research commitment, then reopen divergence when the check reveals a tractable reformulation;
 - do not introduce premature hostile review or mechanical delegation.
 
 **Checkpoint:** confirm that the candidate set is genuinely plural, viewpoints have become falsifiable propositions rather than authority claims, and no single implementation has been mistaken for the Core Question.
@@ -17,7 +19,10 @@ This protocol makes ChatGPT the default **research-judgment and control layer** 
 
 - test contribution against domestic and international literature, the working-paper frontier, and the closest paper architectures;
 - select Claim Type and Evidence Architecture, route the required gates, and audit their fit;
-- assess data/measurement support, construct validity, rival discrimination, geographic justification, and journal ceiling;
+- compare scientific value and data feasibility separately; assess data/measurement support, construct validity, rival discrimination, geographic justification, and journal ceiling without a composite score;
+- distinguish ordinary data cleaning and direct-key joins from novel scientific-object construction, entity resolution, historical reconstruction, or large-scale manual judgment;
+- identify core single points of data failure and require proportionate cheap feasibility evidence before deeper development;
+- when stable output matters, consider portfolio-level data-risk concentration without imposing fixed risk quotas;
 - for causal claims, audit policy/assignment when relevant, counterfactual, estimand, identifying assumptions, and the full causal sequence;
 - identify the cheapest decisive evidence before expensive execution;
 - classify unresolved issues as BLOCKING, MAJOR, or MINOR.
