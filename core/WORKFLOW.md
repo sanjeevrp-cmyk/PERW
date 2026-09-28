@@ -1,4 +1,4 @@
-# PERW v2.4 — Personal Empirical Research Workflow
+# PERW v2.5 — Personal Empirical Research Workflow
 
 ## Stage 0 — Goal & Research Domain Lock
 Record target journal tier, publication speed versus ceiling, acceptable workload, execution capacity, broad disciplinary domain, allowable evidence architectures, time horizon, and any geographic-scope constraints. Also record the data-capability boundary: databases reliably available; common units, identifier systems, time and geographic coverage; known historical-data limits; text/manual-processing and spatial/network capacity; and execution budget. This is a capability boundary, not a menu from which to generate questions. The default publication goal is SSCI Q2 or better; do not lock the project into a single substantive field.
@@ -25,27 +25,27 @@ Universal order: **Core Question → Claim Type → Key Construct → Required E
 **Research Director checkpoint:** apply the Stage 2–5 Research Director + SSCI Q2+ Shadow Referee review.
 
 ## Stage 6 — Data & Measurement Engineering / Pre-analysis Freeze
-Build a data dictionary, provenance record, raw-to-clean pipeline, sample funnel, entity/event/geographic IDs, construct and measurement validation, variable-construction log, missingness audit, and reproducible master script. Support text-derived measures, geographic/spatial data, network data, constructed indices, and administrative/firm/city matching when relevant. For causal designs, also audit treatment. Follow `protocols/data_access_handoff.md` for autonomous acquisition, restricted-access pauses, PI delivery, validation, and checkpoint resume. Where feasible, freeze primary sample, evidence, and specification before result-driven iteration.
+Build a data dictionary, provenance record, raw-to-clean pipeline, sample funnel, entity/event/geographic IDs, construct and measurement validation, variable-construction log, missingness audit, and reproducible master script. Support text-derived measures, geographic/spatial data, network data, constructed indices, and administrative/firm/city matching when relevant. For causal designs, also audit treatment. Follow `protocols/data_access_handoff.md` for autonomous acquisition, restricted-access pauses, PI delivery, validation, and checkpoint resume. Where feasible, freeze primary sample, evidence, and specification before result-driven iteration. Preserve an authoritative data/code/result chain for later exhibits.
 
 ## Stage 7 — Main Evidence
-Produce the primary evidence required by the frozen Claim Type: estimate the primary estimand for causal claims; validate the construct and establish the primary fact for measurement work; test discriminating predictions for viewpoint-guided work; establish the robust primary fact for descriptive work; or estimate the primary spatial/network relation under its corresponding standard. Interpret uncertainty, magnitude, population, validity, and connection to the frozen claim. Diagnose nulls or failures without outcome-shopping.
+Produce the primary evidence required by the frozen Claim Type: estimate the primary estimand for causal claims; validate the construct and establish the primary fact for measurement work; test discriminating predictions for viewpoint-guided work; establish the robust primary fact for descriptive work; or estimate the primary spatial/network relation under its corresponding standard. Interpret uncertainty, magnitude, population, validity, and connection to the frozen claim. Diagnose nulls or failures without outcome-shopping. Begin the result registry and provisional exhibit map under `protocols/econ_management_publication_architecture.md`; publication placement does not determine scientific importance.
 
 ## Stage 8 — Threat-Mapped Robustness
-Every test must name the threat it addresses. Threats depend on the Evidence Architecture and may concern identification, measurement error, construct validity, sample support, spatial dependence, network construction, model dependence, contamination, alternative explanations, or external validity.
+Every test must name the threat it addresses. Threats depend on the Evidence Architecture and may concern identification, measurement error, construct validity, sample support, spatial dependence, network construction, model dependence, contamination, alternative explanations, or external validity. Robustness exhibits must state the threat, diagnostic logic, result source, supported conclusion, and remaining uncertainty.
 
 ## Stage 9 — Mechanism and Rival Explanations
-Mechanisms follow the main effect. Prefer tests that distinguish favored channel A from plausible rival B. Avoid mechanical mediation unless causal requirements are credible.
+Mechanisms follow the main effect. Prefer tests that distinguish favored channel A from plausible rival B. Avoid mechanical mediation unless causal requirements are credible. Give a mechanism or rival exhibit a distinct scientific job rather than mixing it into the primary-result display.
 
 ## Stage 10 — Claim Ladder
-Classify the strongest supported statement: validated measure/new fact, descriptive fact, association, causal effect, causal mechanism, or external generalization. The ladder is a claim-boundary tool, not a requirement to climb toward causality. A strong descriptive or measurement contribution is valid when its claim matches its evidence.
+Classify the strongest supported statement: validated measure/new fact, descriptive fact, association, causal effect, causal mechanism, or external generalization. The ladder is a claim-boundary tool, not a requirement to climb toward causality. A strong descriptive or measurement contribution is valid when its claim matches its evidence. Before full drafting, review a lean publication architecture that maps verified results to main-text, appendix/supplement, and replication outputs without changing the frozen design.
 
 **Research Director checkpoint:** apply the Stage 6–10 Research Director / Evidence Integrator review.
 
 ## Stage 11 — Writing
-Build the argument architecture under `protocols/manuscript_argument_integrity.md`. Stabilize evidence-bearing sections, map the Core Question / Claim / Evidence, use lightweight section and paragraph contracts, then run claim-forward prose, anti-defensive-boundary, two-way alignment, and change-impact checks. Rebuild the Introduction, Abstract, and Title from the stabilized evidence system and audit the exact deliverable. Verify citations, avoid invented references, keep claims within evidence, and leave unresolved facts as TODO.
+Build the argument architecture under `protocols/manuscript_argument_integrity.md` and the approved publication architecture under `protocols/econ_management_publication_architecture.md`. Stabilize evidence-bearing sections, map the Core Question / Claim / Evidence, use lightweight section and paragraph contracts, then run claim-forward prose, anti-defensive-boundary, two-way alignment, and change-impact checks. Verify results before verifying manuscript claims; reconcile headline numbers after reruns or material edits. Rebuild the Introduction, Abstract, and Title from the stabilized evidence system and audit the exact deliverable. Verify citations, avoid invented references, keep claims within evidence, and leave unresolved facts as TODO.
 
 ## Stage 12 — Adversarial Review
-Use R1 Identification / Validity Specialist, R2 Field Expert, and R3 Generalist/Editor; R3 includes an Argument & Prose Integrity Pass under `protocols/manuscript_argument_integrity.md`. Classify blocking/major/minor comments. Do not recommend submission while blocking comments remain.
+Use R1 Identification / Validity Specialist, R2 Field Expert, and R3 Generalist/Editor; R3 includes an Argument & Prose Integrity Pass under `protocols/manuscript_argument_integrity.md` and an exhibit/provenance audit under `protocols/econ_management_publication_architecture.md`. Classify blocking/major/minor comments. Do not recommend submission while blocking comments remain.
 
 **Research Director checkpoint:** apply the Stage 11–12 Internal Editor + SSCI Q2/Q1 Referee review.
 

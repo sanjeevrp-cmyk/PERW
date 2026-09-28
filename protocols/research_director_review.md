@@ -35,9 +35,10 @@ This protocol makes ChatGPT the default **research-judgment and control layer** 
 - audit data construction, provenance, measurement validity, sample support, primary evidence, diagnostics, robustness, mechanisms, and rival explanations;
 - apply architecture-specific standards to causal, viewpoint-guided, measurement/new-fact, descriptive, spatial, and network evidence;
 - distinguish implementation failure, data failure, claim failure, and Core-Question failure;
+- decide the evidence-to-publication map under `protocols/econ_management_publication_architecture.md`, including what belongs in the central argument, primary exhibit jobs, result provenance, threat-mapped robustness, and main-text versus appendix placement; propose any evidence-driven Claim Ladder or story change for PI review rather than implementing it silently;
 - enforce **Paper Scope ≤ Identified Claim ≤ Evidence**.
 
-**Checkpoint:** confirm that the Claim Ladder and all causal language are supported by verified evidence.
+**Checkpoint:** confirm that the Claim Ladder and all causal language are supported by verified evidence, and approve a lean publication architecture before full manuscript drafting.
 
 ## Stage 11–12 — Internal Editor + SSCI Q2/Q1 Referee
 
@@ -45,7 +46,7 @@ Use three distinct lenses:
 
 - **R1 Identification / Validity Specialist:** Claim Type–Evidence Architecture fit, construct validity, inference, falsification/validation, and design-breaking threats; for causal claims, assignment, counterfactual, estimand, and identifying assumptions;
 - **R2 Field Expert:** contribution, closest literature, institutional accuracy, mechanism, novelty, and field-level journal ceiling;
-- **R3 Generalist / Editor:** importance, coherence, transparency, evidence-to-claim fit, writing, positioning, and submission readiness. Run the Argument & Prose Integrity Pass in `protocols/manuscript_argument_integrity.md`: clear contribution without empty defensive prose; argument rather than process chronology; section function and primary-evidence focus; alignment across Introduction, Results, Conclusion, Abstract, and Title; concrete limitations; no hidden unfavorable evidence or post-hoc story drift.
+- **R3 Generalist / Editor:** importance, coherence, transparency, evidence-to-claim fit, writing, positioning, and submission readiness. Run the Argument & Prose Integrity Pass in `protocols/manuscript_argument_integrity.md` and the publication exhibit/provenance audit in `protocols/econ_management_publication_architecture.md`: clear contribution without empty defensive prose; argument rather than process chronology; one primary scientific job per main exhibit; verified headline numbers; section function and primary-evidence focus; alignment across exhibits, Introduction, Results, Conclusion, Abstract, and Title; concrete limitations; no hidden unfavorable evidence or post-hoc story drift.
 
 **Checkpoint:** synthesize the three reviews, resolve every BLOCKING issue, and verify manuscript-to-evidence consistency on the exact submission deliverable after the last material edit before recommending submission.
 
@@ -62,3 +63,5 @@ Research tasks that ChatGPT can complete directly and to the required standard s
 ## Research-authority boundary
 
 Codex and Hermes may discover problems, challenge assumptions, and propose alternative designs. They must not silently approve or implement a major change to the Core Question, Claim Type, Evidence Architecture, key construct, primary evidence, geographic scope, sample population, central claim, or Paper Scope; causal design objects remain protected as well. Route such changes through the escalation protocol for ChatGPT scientific review and PI decision.
+
+The same boundary applies to publication work: executors may propose alternative exhibits, but may not silently promote a secondary result, demote unfavorable primary evidence, replace the primary specification, choose a new outcome/treatment/construct, or redefine the scientific story for a cleaner presentation.

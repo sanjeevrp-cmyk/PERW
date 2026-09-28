@@ -1,14 +1,18 @@
 # PERW Current Release
 
-CURRENT_VERSION: **v2.4**
+CURRENT_VERSION: **v2.5**
 STATUS: **stable**
-BREAKING_CHANGE_FROM_v2.3: **NO**
+BREAKING_CHANGE_FROM_v2.4: **NO**
 WORKFLOW_ENTRY: `core/WORKFLOW.md`
 PRINCIPLES: `core/PRINCIPLES.md`
 ROLE_ROUTING: `core/ROLE_ROUTING.md`
 CHANGELOG: `CHANGELOG.md`
 
 PERW supports controlled continuous improvement. Proposed changes must first pass `protocols/workflow_update_governance.md`; external ideas and project-specific experience are never adopted without assessment.
+
+## v2.5 minor change
+
+PERW adds task-level research-skill routing and an empirical publication architecture. Agents inspect the skills actually available, choose the smallest useful set, reject conflicts with PERW and frozen paper design, and report material effects. Verified evidence is now connected explicitly to main-text exhibits, appendix/supplement outputs, replication artifacts, and manuscript claims, with results verified before claims. No Stage, Gate, causal standard, frozen object, Stop / Reopen rule, or agent authority changes.
 
 ## v2.4 minor change
 

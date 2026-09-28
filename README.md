@@ -2,7 +2,7 @@
 
 PERW is a personal research operating system for high-quality empirical economics, management, finance, and related research.
 
-Current stable release: **v2.4**.
+Current stable release: **v2.5**.
 
 It is designed to be read automatically by:
 - **ChatGPT** — Research Director / Research Architect / Co-Researcher / Internal Editor / Evidence Integrator
@@ -56,6 +56,10 @@ Data access follows `protocols/data_access_handoff.md`: executors autonomously o
 Stage 1–2 candidate development follows `protocols/early_data_feasibility.md`: after independent scientific divergence, candidates about to receive substantial further effort distinguish required, observable, and missing evidence; audit both core-construct and primary-evidence observability; record qualitative Data Risk; and run the cheapest proportionate feasibility test. This allocates research effort and does not replace the Stage 3 Data / Measurement Gate.
 
 Stage 11–12 manuscript work follows `protocols/manuscript_argument_integrity.md`: lead with supported claims, retain material limits and unfavorable evidence, and review the exact submission deliverable.
+
+Nontrivial research tasks follow `protocols/research_skill_routing.md`: inspect only skills actually available, select the smallest useful set, and reject any instruction that conflicts with PERW, the frozen paper design, or the approved execution specification. External skills are optional aids, not scientific authority.
+
+Stages 7–11 use `protocols/econ_management_publication_architecture.md` to connect verified results to main-text exhibits, appendix/supplement material, replication artifacts, and manuscript sentences. Each main exhibit has one primary scientific job, headline numbers retain authoritative provenance, and result verification precedes claim verification.
 
 Research-code implementation follows `protocols/research_code_economy.md`: use the simplest implementation that preserves scientific checks, provenance, and reproducibility. Simplicity does not mean the fewest lines of code. Optional code-economy skills are never required.
 

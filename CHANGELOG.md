@@ -1,5 +1,17 @@
 # PERW Changelog
 
+## v2.5 — 2026-09-28
+
+### MINOR change
+
+PERW adds `protocols/research_skill_routing.md`. For nontrivial research tasks, agents now identify the Stage, Claim Type, Evidence Architecture, task, and needed capability; inspect skills actually available in the runtime or project; select the smallest useful set; and load only directly required instructions. Conflicts follow `PI DECISION > PERW > FROZEN PAPER DESIGN > TASK EXECUTION SPEC > APPROVED EXTERNAL SKILL > TOOL DEFAULTS`. Material choices are classified as APPLY, PARTIALLY APPLY, REJECT, or ESCALATE and summarized in the execution report. Skills that optimize significance, encourage outcome/specification/sample search, suppress unfavorable evidence, or upgrade causal language are rejected. PERW remains complete without external skills.
+
+PERW also adds `protocols/econ_management_publication_architecture.md` and `templates/PUBLICATION_ARCHITECTURE.md`, bridging verified evidence to publication exhibits, results narrative, and manuscript claims across Stages 7–11. Outputs are separated into internal-diagnostic, main-text, appendix/supplement, and replication layers. Every main exhibit has one primary scientific job; tables and figures follow field- and design-appropriate standards rather than a fixed journal template; robustness displays are threat-mapped; statistical precision, magnitude, and causal meaning are interpreted separately; headline numbers retain authoritative provenance; and result verification precedes claim verification.
+
+The update was informed by current public research-skill repositories and empirical paper architectures, but no external workflow was copied wholesale or made a dependency. General routing, provenance, verification, and reader-function principles were adopted. Fixed exhibit counts, universal journal house styles, significance-search routines, method-specific mandates without design fit, and confirmation-heavy orchestration were rejected.
+
+Stage 0–12 numbering, Gate routing and passing criteria, Claim Type and Evidence Architecture principles, causal identification standards, Scope Contract and frozen objects, Stop / Reopen rules, prior v2.2–v2.4 protections, and agent authority are unchanged. Active projects do not migrate automatically; they may adopt the routing protocol for new tasks and the publication protocol only after checking the current frozen design and project state.
+
 ## v2.4 — 2026-09-19
 
 ### MINOR change

@@ -5,3 +5,5 @@ Minimum fields: PERW version; stage/gate; objective; Claim Type; Evidence Archit
 For nontrivial data-bearing tasks also specify: `DATA_ACCESS_MODE`; expected autonomous sources; potential restricted sources; PI handoff trigger; branch pause condition; resume condition/checkpoint; and work that may continue independently. Default `DATA_ACCESS_MODE` is agent-first acquisition under `protocols/data_access_handoff.md`.
 
 For research-code tasks, apply `protocols/research_code_economy.md` within the existing tasks, outputs, and validation criteria. No separate implementation-mode field is needed. Preserve required scientific checks and verify output/result equivalence after substantive simplification.
+
+For nontrivial research tasks, apply `protocols/research_skill_routing.md`. Default skill routing is `AUTO`; use `PINNED` or `NONE` only when the task requires an explicit choice. Selected skills remain subordinate to PERW, the frozen design, and this execution specification.
