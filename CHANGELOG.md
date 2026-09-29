@@ -1,5 +1,17 @@
 # PERW Changelog
 
+## v2.6 — 2026-09-29
+
+### MINOR change
+
+PERW adds `protocols/method_runtime_readiness.md` and `templates/METHOD_RUNTIME_READINESS.md`. Before the first materially nontrivial claim-bearing formal estimation or inference, the protocol links scientific job, method fit, data/support fit, temporal provenance, runtime capability, a proportionate minimal validation run, and a readiness decision. Scientific role is recorded separately from readiness status.
+
+The protocol distinguishes external existence, runtime-discoverable skills, installed software, runnable project implementation, scientific approval, and validated execution. It adds reference-period / information-availability / database-vintage / revision provenance; diagnostic separation of sample-composition from covariate-adjustment changes; method-specific support and numerical checks for sparse-outcome or saturated models; and branch-local re-readiness only after a material change. `PAUSED_FOR_PI_DATA` reuses existing data-access governance.
+
+Stage 6–7 and Codex routing now invoke readiness only where relevant. Research Director authority over scientific role and method fit is unchanged; executors validate runtime implementation. Active papers do not migrate automatically and require a separate `PERW_MIGRATION_ASSESSMENT` before adoption.
+
+Stage 0–12 numbering, Gate routing and passing criteria, Claim Type and Evidence Architecture principles, causal identification standards, Scope Contract and frozen objects, Stop / Reopen rules, publication architecture authority, and agent authority are unchanged. The release creates no mandatory estimator, fixed event/cluster/attrition/parameter threshold, or external skill/package dependency. Existing manuscript-integrity, code-economy, early-feasibility, skill-routing, and publication-architecture protections remain in force.
+
 ## v2.5 — 2026-09-28
 
 ### MINOR change

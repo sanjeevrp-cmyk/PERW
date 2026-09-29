@@ -1,14 +1,18 @@
 # PERW Current Release
 
-CURRENT_VERSION: **v2.5**
+CURRENT_VERSION: **v2.6**
 STATUS: **stable**
-BREAKING_CHANGE_FROM_v2.4: **NO**
+BREAKING_CHANGE_FROM_v2.5: **NO**
 WORKFLOW_ENTRY: `core/WORKFLOW.md`
 PRINCIPLES: `core/PRINCIPLES.md`
 ROLE_ROUTING: `core/ROLE_ROUTING.md`
 CHANGELOG: `CHANGELOG.md`
 
 PERW supports controlled continuous improvement. Proposed changes must first pass `protocols/workflow_update_governance.md`; external ideas and project-specific experience are never adopted without assessment.
+
+## v2.6 minor change
+
+PERW adds Method & Runtime Readiness before materially nontrivial claim-bearing estimation or inference. It separates external availability, skill discovery, installed software, project implementation, scientific approval, and validated execution; audits temporal provenance, sample-support changes, and sparse or saturated models; and uses branch-local re-readiness without adding a Stage, Gate, mandatory method, fixed numerical threshold, external dependency, or new agent authority.
 
 ## v2.5 minor change
 

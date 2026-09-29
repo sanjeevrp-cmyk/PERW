@@ -7,3 +7,5 @@ For nontrivial data-bearing tasks also specify: `DATA_ACCESS_MODE`; expected aut
 For research-code tasks, apply `protocols/research_code_economy.md` within the existing tasks, outputs, and validation criteria. No separate implementation-mode field is needed. Preserve required scientific checks and verify output/result equivalence after substantive simplification.
 
 For nontrivial research tasks, apply `protocols/research_skill_routing.md`. Default skill routing is `AUTO`; use `PINNED` or `NONE` only when the task requires an explicit choice. Selected skills remain subordinate to PERW, the frozen design, and this execution specification.
+
+For method-intensive claim-bearing tasks, apply `protocols/method_runtime_readiness.md` and identify the readiness artifact and affected-branch decision. Do not add readiness fields to trivial tasks or treat readiness as scientific approval.

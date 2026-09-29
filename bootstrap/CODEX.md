@@ -16,6 +16,8 @@ Codex may discover problems, challenge assumptions, and propose alternatives. It
 
 For nontrivial research tasks, follow `protocols/research_skill_routing.md`: inspect the skills actually available, select the smallest useful set, check them against PERW and the frozen design, and report any material effect. External skills are optional execution aids and never override PERW or expand Codex authority.
 
+Before materially nontrivial claim-bearing formal estimation or inference, apply `protocols/method_runtime_readiness.md` where relevant. Distinguish method approval from software availability and validated execution; a readiness failure normally pauses or rejects only the affected branch.
+
 For research-code tasks, follow `protocols/research_code_economy.md`. Codex may use Ponytail for implementation economy and post-implementation review when installed; PERW remains complete without it. Scientific auditability, validation, and reproducibility always take priority over code compression.
 
 When the user asks to improve PERW, or Codex identifies a generalizable research-workflow improvement, read `protocols/workflow_update_governance.md` and complete its assessment before modifying PERW. Do not apply proposed improvements directly.

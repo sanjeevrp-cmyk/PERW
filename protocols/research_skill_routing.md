@@ -29,6 +29,8 @@ Reject any skill that optimizes significance, searches outcomes/specifications/s
 
 Default routing is `AUTO`. Use `PINNED` only when an approved execution specification names a skill, and `NONE` when no available skill adds value. This does not create a new project-level field.
 
+`AUTO` identifies and selects relevant skills; it does not prove that required software exists, that a project implementation runs, or that the method is scientifically valid. Keep these states distinct: **EXTERNAL EXISTS**, **DISCOVERABLE SKILL**, **INSTALLED SOFTWARE**, **PROJECT IMPLEMENTATION**, **SCIENTIFICALLY APPROVED**, and **VALIDATED EXECUTION**. If installation or runtime validation is required, apply `protocols/method_runtime_readiness.md`. `PINNED` may require a named skill only within an approved execution specification; no external skill becomes a PERW dependency.
+
 The execution report includes a compact skill-routing block when routing had a material effect:
 
 - skills inspected or discovered;

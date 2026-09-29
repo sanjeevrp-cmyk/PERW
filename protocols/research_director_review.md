@@ -33,6 +33,7 @@ This protocol makes ChatGPT the default **research-judgment and control layer** 
 
 - review execution evidence rather than relying on execution status;
 - audit data construction, provenance, measurement validity, sample support, primary evidence, diagnostics, robustness, mechanisms, and rival explanations;
+- review the scientific role, method fit, and limitations of materially important methods under `protocols/method_runtime_readiness.md`, while executors validate runtime implementation and report readiness evidence;
 - apply architecture-specific standards to causal, viewpoint-guided, measurement/new-fact, descriptive, spatial, and network evidence;
 - distinguish implementation failure, data failure, claim failure, and Core-Question failure;
 - decide the evidence-to-publication map under `protocols/econ_management_publication_architecture.md`, including what belongs in the central argument, primary exhibit jobs, result provenance, threat-mapped robustness, and main-text versus appendix placement; propose any evidence-driven Claim Ladder or story change for PI review rather than implementing it silently;
