@@ -9,6 +9,7 @@ This protocol makes ChatGPT the default **research-judgment and control layer** 
 - decompose viewpoints with `protocols/viewpoint_to_evidence.md`;
 - reverse-engineer domestic and international high-level paper architecture with `protocols/paper_architecture_reverse_engineering.md`;
 - protect useful divergence before feasibility filtering;
+- after independent divergence, use `protocols/high_quality_literature_anchoring.md` to verify benchmark sources, map the scientific frontier, identify competing literature clusters, and reopen or refine the candidate set;
 - identify concentration in unverified data engineering without allowing data convenience to generate or define the questions;
 - trigger cheap observability checks under `protocols/early_data_feasibility.md` before a promising candidate receives expensive research commitment, then reopen divergence when the check reveals a tractable reformulation;
 - do not introduce premature hostile review or mechanical delegation.
@@ -17,7 +18,8 @@ This protocol makes ChatGPT the default **research-judgment and control layer** 
 
 ## Stage 2–5 — Research Director + SSCI Q2+ Shadow Referee
 
-- test contribution against domestic and international literature, the working-paper frontier, and the closest paper architectures;
+- test contribution against a verified high-quality benchmark set, domestic and international literature, the working-paper frontier, and a serious adversarial search for the closest paper;
+- distinguish benchmark literature from the project's own evidence and judge residual contribution only after closest-paper comparison;
 - select Claim Type and Evidence Architecture, route the required gates, and audit their fit;
 - compare scientific value and data feasibility separately; assess data/measurement support, construct validity, rival discrimination, geographic justification, and journal ceiling without a composite score;
 - distinguish ordinary data cleaning and direct-key joins from novel scientific-object construction, entity resolution, historical reconstruction, or large-scale manual judgment;
@@ -34,6 +36,7 @@ This protocol makes ChatGPT the default **research-judgment and control layer** 
 - review execution evidence rather than relying on execution status;
 - audit data construction, provenance, measurement validity, sample support, primary evidence, diagnostics, robustness, mechanisms, and rival explanations;
 - review the scientific role, method fit, and limitations of materially important methods under `protocols/method_runtime_readiness.md`, while executors validate runtime implementation and report readiness evidence;
+- require design-specific high-quality or canonical literature justification for a material estimator, inference method, robustness test, mechanism, rival test, heterogeneity dimension, or construct variation before treating availability as scientific value;
 - apply architecture-specific standards to causal, viewpoint-guided, measurement/new-fact, descriptive, spatial, and network evidence;
 - distinguish implementation failure, data failure, claim failure, and Core-Question failure;
 - decide the evidence-to-publication map under `protocols/econ_management_publication_architecture.md`, including what belongs in the central argument, primary exhibit jobs, result provenance, threat-mapped robustness, and main-text versus appendix placement; propose any evidence-driven Claim Ladder or story change for PI review rather than implementing it silently;
@@ -49,7 +52,9 @@ Use three distinct lenses:
 - **R2 Field Expert:** contribution, closest literature, institutional accuracy, mechanism, novelty, and field-level journal ceiling;
 - **R3 Generalist / Editor:** importance, coherence, transparency, evidence-to-claim fit, writing, positioning, and submission readiness. Run the Argument & Prose Integrity Pass in `protocols/manuscript_argument_integrity.md` and the publication exhibit/provenance audit in `protocols/econ_management_publication_architecture.md`: clear contribution without empty defensive prose; argument rather than process chronology; one primary scientific job per main exhibit; verified headline numbers; section function and primary-evidence focus; alignment across exhibits, Introduction, Results, Conclusion, Abstract, and Title; concrete limitations; no hidden unfavorable evidence or post-hoc story drift.
 
-**Checkpoint:** synthesize the three reviews, resolve every BLOCKING issue, and verify manuscript-to-evidence consistency on the exact submission deliverable after the last material edit before recommending submission.
+**Checkpoint:** synthesize the three reviews, resolve every BLOCKING issue, refresh the closest-literature/frontier scan when material time has passed, verify central citations and benchmark metadata, and verify manuscript-to-evidence consistency on the exact submission deliverable after the last material edit before recommending submission.
+
+Journal quartile and citation count are source metadata, not a composite score for scientific importance, validity, contribution, or method fit.
 
 ## Finding severity
 

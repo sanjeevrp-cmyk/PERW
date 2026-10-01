@@ -8,6 +8,8 @@ For a nontrivial research task, first identify the current Stage, Claim Type, Ev
 
 Do not load a broad skill collection merely because it is available. A router or index may help locate a specialist skill, but it does not replace scientific judgment or perform the substantive task.
 
+For a nontrivial research decision, ask whether the decision is literature-anchoring material. If yes, check the project's Literature Benchmark Map, locate and verify the relevant source, extract only the generalizable logic, confirm design fit, and then execute under `protocols/high_quality_literature_anchoring.md`. Do not wait for the PI to request a Q1/Q2 paper separately for every material construct or method decision, and do not change a frozen object because a prestigious paper uses another design.
+
 ## Authority and conflict order
 
 Resolve instructions in this order:
@@ -24,6 +26,12 @@ Classify each material fit decision as:
 - **ESCALATE:** would require a protected design, scope, authority, or workflow change.
 
 Reject any skill that optimizes significance, searches outcomes/specifications/samples for publishable results, suppresses null or unfavorable evidence, treats formatting consistency as scientific verification, upgrades causal language, or substitutes a fixed journal template for Claim Type and Evidence Architecture. A skill catalog's inclusion of a method is not approval to use it.
+
+## External end-to-end workflows
+
+Treat an external end-to-end research workflow as a **capability collection**, not a second central workflow. Load only the task-relevant component: citation-topology tactics may support literature search; execution/archive conventions may support reproducibility; table, figure, or writing checks may support approved deliverables. Its Stage order, method menu, universal endogeneity phase, mechanism template, heterogeneity battery, significance-improvement loop, journal format, or thesis format never controls a PERW project.
+
+External method menus do not select the causal design, and external default mediation procedures do not determine the mechanism strategy. Do not import a universal Hausman FE/RE rule, automatic TWFE default, `F > 10` valid-IV shortcut, fixed clustering or event-window threshold, or fixed mediation or heterogeneity procedure. PERW Stage structure, frozen design, scientific authority, and conflict hierarchy remain controlling; no project depends on an external end-to-end skill.
 
 ## Execution and reporting
 

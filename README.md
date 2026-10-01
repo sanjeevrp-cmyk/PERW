@@ -2,7 +2,7 @@
 
 PERW is a personal research operating system for high-quality empirical economics, management, finance, and related research.
 
-Current stable release: **v2.6**.
+Current stable release: **v2.7**.
 
 It is designed to be read automatically by:
 - **ChatGPT** — Research Director / Research Architect / Co-Researcher / Internal Editor / Evidence Integrator
@@ -54,6 +54,8 @@ ChatGPT provides stage-specific research-judgment checkpoints through `protocols
 Data access follows `protocols/data_access_handoff.md`: executors autonomously obtain lawfully accessible data, restricted sources trigger a precise PI handoff, and executor access failure never substitutes for a scientific Data / Measurement Gate judgment.
 
 Stage 1–2 candidate development follows `protocols/early_data_feasibility.md`: after independent scientific divergence, candidates about to receive substantial further effort distinguish required, observable, and missing evidence; audit both core-construct and primary-evidence observability; record qualitative Data Risk; and run the cheapest proportionate feasibility test. This allocates research effort and does not replace the Stage 3 Data / Measurement Gate.
+
+Major scientific decisions follow `protocols/high_quality_literature_anchoring.md`: maintain a verified, role-specific benchmark map; search seriously for the closest paper and current frontier; translate literature into generalizable logic and design fit; and verify any formal Q1/Q2 claim by named ranking system, year, and relevant category. Prestige and citation count never substitute for scientific importance, identification, evidence, or residual contribution.
 
 Stage 11–12 manuscript work follows `protocols/manuscript_argument_integrity.md`: lead with supported claims, retain material limits and unfavorable evidence, and review the exact submission deliverable.
 

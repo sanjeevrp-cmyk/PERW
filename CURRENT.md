@@ -1,14 +1,18 @@
 # PERW Current Release
 
-CURRENT_VERSION: **v2.6**
+CURRENT_VERSION: **v2.7**
 STATUS: **stable**
-BREAKING_CHANGE_FROM_v2.5: **NO**
+BREAKING_CHANGE_FROM_v2.6: **NO**
 WORKFLOW_ENTRY: `core/WORKFLOW.md`
 PRINCIPLES: `core/PRINCIPLES.md`
 ROLE_ROUTING: `core/ROLE_ROUTING.md`
 CHANGELOG: `CHANGELOG.md`
 
 PERW supports controlled continuous improvement. Proposed changes must first pass `protocols/workflow_update_governance.md`; external ideas and project-specific experience are never adopted without assessment.
+
+## v2.7 minor change
+
+PERW adds High-Quality Literature Anchoring for major scientific decisions. It separates verified JCR Q1/Q2 benchmarks from canonical methods, frontier working papers, official sources, high-level Chinese literature, and discovery-only sources; requires closest-paper and literature-to-design discipline; and preserves independent divergence, design fit, original evidence, citation verification, and independent writing. No Stage, Gate, causal standard, frozen object, or agent authority changes.
 
 ## v2.6 minor change
 

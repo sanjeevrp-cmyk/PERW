@@ -1,5 +1,17 @@
 # PERW Changelog
 
+## v2.7 — 2026-10-01
+
+### MINOR change
+
+PERW adds `protocols/high_quality_literature_anchoring.md` and `templates/LITERATURE_BENCHMARK_MAP.md`. Major scientific decisions now map a scientific object to a role-appropriate, verified source; extract generalizable logic; test design fit; define adaptation; reassess residual contribution against serious closest papers; and state the resulting evidence requirement. Independent Stage 1 divergence remains protected.
+
+The protocol distinguishes verified JCR Q1/Q2 benchmarks, canonical methodological sources, frontier working papers, official/primary sources, high-level Chinese literature, and discovery-only sources. A formal Q1/Q2 record names the ranking system, JCR year, scientifically relevant category, verification source/date, full-text status, and citation status. JCR, SJR, CiteScore, CAS / 中科院, and arbitrary rankings may not be silently mixed; quartiles are time-varying and unresolved rankings remain provisional or unverified.
+
+The release adds adversarial closest-paper search, optional targeted citation topology, coverage rather than fixed literature counts, full-text and original-source verification for central claims, and an explicit no-reuse boundary for source prose. External end-to-end workflows are capability collections subordinate to PERW; the current `ZehChou/cn-economics-thesis-workflow-skill` informed bilingual discovery, citation topology, persistent literature state, reproducibility, specification logging, theory-based heterogeneity, and magnitude interpretation, but is not a dependency.
+
+Universal X/Y/mediator starts, fixed literature quotas, citation-count quality scores, universal endogeneity phases or method menus, significance-improvement loops, automatic Hausman/TWFE rules, F>10-as-valid-IV rules, fixed cluster/event thresholds, universal mediation or heterogeneity batteries, thesis chapter formats, and GB/T 7714 as a central PERW requirement were rejected. Stage 0–12 numbering, Gate routing and passing criteria, Claim Type and Evidence Architecture principles, causal identification standards, Scope Contract and frozen objects, Stop / Reopen rules, v2.2–v2.6 protections, and agent authority are unchanged. Active papers do not migrate automatically.
+
 ## v2.6 — 2026-09-29
 
 ### MINOR change
