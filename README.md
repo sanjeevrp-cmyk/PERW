@@ -2,12 +2,14 @@
 
 PERW is a personal research operating system for high-quality empirical economics, management, finance, and related research.
 
-Current stable release: **v2.7**.
+Current stable release: **v2.8**.
 
 It is designed to be read automatically by:
-- **ChatGPT** — Research Director / Research Architect / Co-Researcher / Internal Editor / Evidence Integrator
-- **Codex** — Primary Empirical Research Engineer / Data Auditor
-- **Hermes Research Profile** — Empirical Research Engineer / Independent Analyst / Auditor
+- **ChatGPT** — Research Director / Scientific Question Guardian / Research Architect / Identification Strategist / Literature Adversary / Evidence Integrator / Internal Editor
+- **Codex** — Primary Empirical Research Engineer / Data & Measurement Auditor / Identification Implementation Engineer / Reproducibility Owner
+- **Hermes Research Profile** — Independent Scientific Auditor / Scope-Drift Auditor / Adversarial Identification Auditor / Novelty-Collision Auditor / Independent Replicator / Construct & Provenance Auditor
+
+These names clarify responsibilities without changing authority. The PI remains Principal Investigator / Research Direction Owner / Final Scientific Authority. ChatGPT retains scientific review and recommendation, Codex approved implementation, and Hermes independent audit and approved execution.
 
 PERW stores **how research should be conducted**. It does **not** store individual paper projects, unpublished ideas, private data, empirical results, or submission files.
 
@@ -50,6 +52,8 @@ Research proceeds through:
 **problem discovery → candidate architecture → routed feasibility gates → claim/scope freeze → evidence and identification blueprint → data/measurement engineering → primary evidence → threat-mapped robustness → mechanism → claim ladder → writing → adversarial review**
 
 ChatGPT provides stage-specific research-judgment checkpoints through `protocols/research_director_review.md`. Universal gates protect contribution, data/measurement quality, and claim-architecture fit; conditional gates protect causal, viewpoint-guided, measurement/new-fact, and regional/spatial claims.
+
+`protocols/research_genesis_branch_governance.md` preserves scientific origin in `templates/RESEARCH_GENESIS_ANCHOR.md` and parent history in `templates/RESEARCH_BRANCH_REGISTRY.md`. Qualitative object fingerprints distinguish implementation/design repair, extension, new branches, and replacement. Literature attacks novelty through a multidimensional collision audit without silently replacing the question. Causal ambition is intent, not a causal claim, and requires explicit assessment/resolution rather than silent downgrade. The anchor is not a design freeze, weak branches may be killed, and no universal novelty score exists. Scope freeze, Gate criteria, causal standards, Stop / Reopen rules, and actual agent authority are unchanged; ongoing projects require separate adoption/migration assessment.
 
 Data access follows `protocols/data_access_handoff.md`: executors autonomously obtain lawfully accessible data, restricted sources trigger a precise PI handoff, and executor access failure never substitutes for a scientific Data / Measurement Gate judgment.
 

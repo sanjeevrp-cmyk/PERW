@@ -1,14 +1,18 @@
 # PERW Current Release
 
-CURRENT_VERSION: **v2.7**
+CURRENT_VERSION: **v2.8**
 STATUS: **stable**
-BREAKING_CHANGE_FROM_v2.6: **NO**
+BREAKING_CHANGE_FROM_v2.7: **NO**
 WORKFLOW_ENTRY: `core/WORKFLOW.md`
 PRINCIPLES: `core/PRINCIPLES.md`
 ROLE_ROUTING: `core/ROLE_ROUTING.md`
 CHANGELOG: `CHANGELOG.md`
 
 PERW supports controlled continuous improvement. Proposed changes must first pass `protocols/workflow_update_governance.md`; external ideas and project-specific experience are never adopted without assessment.
+
+## v2.8 minor change
+
+PERW adds Research Genesis & Branch Governance: a provenance anchor, qualitative Scientific Object Fingerprint, explicit drift classification and parent-branch history, multidimensional novelty-collision audit, closest-paper assimilation protection, and causal ambition declaration/assessment/resolution. Expanded ChatGPT, Codex, and Hermes role names clarify responsibilities only. The anchor does not freeze weak ideas; failed branches may be explicitly killed; implementation repair does not automatically create branches; new branches inherit no automatic claims or approval. Stage 0–12, Gate routing/criteria, Claim Type, Evidence Architecture, causal standards, formal Scope Contract, Stop / Reopen rules, and actual agent authority remain unchanged. Active projects do not migrate automatically.
 
 ## v2.7 minor change
 

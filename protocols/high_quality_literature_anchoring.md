@@ -83,6 +83,28 @@ For important anchor papers, use backward citations, forward citations, related/
 
 Use bilingual discovery when the scientific setting requires it: search English and Chinese concepts, policy names, construct synonyms, and institutional terms for China-related work, while applying the same source-role and verification rules to the results.
 
+## Multidimensional novelty collision and literature adversary
+
+High-quality literature is used to **attack novelty, calibrate claims, and improve design**, not to **assimilate the project into the closest paper**. For every serious closest paper ask both: **WHAT DOES THIS PAPER OCCUPY?** and **WHAT SCIENTIFIC OBJECT DOES IT NOT OCCUPY?** Compare with the genesis anchor and current branch fingerprint under `protocols/research_genesis_branch_governance.md`; a nearby literature must not silently redefine the original question. Explicit evidence-based repair, rejection, or replacement remains legitimate.
+
+Record overlap and difference, source evidence, uncertainty, and implications separately across:
+
+| Dimension | Audit question |
+|---|---|
+| TOPIC ADJACENCY | Is the subject nearby without answering the same question? |
+| MECHANISM-FAMILY ADJACENCY | Is only the general mechanism family shared, or is the central mechanism claim already answered? |
+| CONSTRUCT / MEASUREMENT OVERLAP | Are the concept, operationalization, or proposed measurement contribution already occupied? |
+| SCIENTIFIC-OBJECT / OUTCOME-POPULATION OVERLAP | Are the actor, affected population, outcome population, and relation the same? |
+| SCIENTIFIC-QUESTION OVERLAP | Does the paper answer essentially the same Core Question? |
+| CLAIM OVERLAP | Does it establish the intended scientific statement? |
+| EVIDENCE-ARCHITECTURE / IDENTIFICATION OVERLAP | Does it provide the relevant evidence and, when needed, identification for that statement? |
+| SETTING / INSTITUTIONAL OVERLAP | Is the institutional variation or setting-specific learning already occupied? |
+| CONTRIBUTION COLLISION | After all differences are considered, what defensible residual contribution remains? |
+
+Conclude qualitatively: ADJACENT / PARTIAL COLLISION / SUBSTANTIAL COLLISION / NEAR-DUPLICATE, with a rationale and unresolved facts. No weighted score, universal mathematical formula, or automatic decision. These labels document the existing Competition / Contribution Gate comparison; they do not change its criteria or replace GO / GO WITH REPAIR / HOLD / NO-GO.
+
+High topic similarity or general mechanism-family similarity alone is not proof that the contribution is occupied. Conversely, a different estimator does not protect novelty if a paper already answers essentially the same scientific question for the same scientific object with the relevant evidence. The strongest threat usually comes from joint overlap in question, focal/outcome population, claim, construct, required evidence, and contribution. Any dimension may matter in context: do not restrict novelty threats exclusively to claim or Evidence Architecture overlap. A construct, measurement, or institutional contribution can collide on its own scientific terms. Neither adjacency nor an unoccupied object automatically establishes scientific value or novelty.
+
 ## Full text, citations, and writing boundary
 
 Abstract-only reading is normally insufficient when a paper justifies a construct, identification strategy, estimator, mechanism, robustness procedure, or paper-architecture claim. Prefer full text and label any limitation. Do not state that a paper uses a method or supports a claim unless the source actually does so. Whenever practical, verify the original source rather than relying on a secondary citation.

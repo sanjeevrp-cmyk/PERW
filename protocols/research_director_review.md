@@ -9,6 +9,7 @@ This protocol makes ChatGPT the default **research-judgment and control layer** 
 - decompose viewpoints with `protocols/viewpoint_to_evidence.md`;
 - reverse-engineer domestic and international high-level paper architecture with `protocols/paper_architecture_reverse_engineering.md`;
 - protect useful divergence before feasibility filtering;
+- preserve the Research Genesis Anchor as provenance, allow plural questions without premature freeze, and compare literature-refined candidates with their origins under `protocols/research_genesis_branch_governance.md`;
 - after independent divergence, use `protocols/high_quality_literature_anchoring.md` to verify benchmark sources, map the scientific frontier, identify competing literature clusters, and reopen or refine the candidate set;
 - identify concentration in unverified data engineering without allowing data convenience to generate or define the questions;
 - trigger cheap observability checks under `protocols/early_data_feasibility.md` before a promising candidate receives expensive research commitment, then reopen divergence when the check reveals a tractable reformulation;
@@ -20,12 +21,14 @@ This protocol makes ChatGPT the default **research-judgment and control layer** 
 
 - test contribution against a verified high-quality benchmark set, domestic and international literature, the working-paper frontier, and a serious adversarial search for the closest paper;
 - distinguish benchmark literature from the project's own evidence and judge residual contribution only after closest-paper comparison;
+- use the multidimensional novelty-collision audit; ask what each serious closest paper occupies and does not occupy, and distinguish original, repaired, and new branches without assimilating the question into nearby literature;
 - select Claim Type and Evidence Architecture, route the required gates, and audit their fit;
 - compare scientific value and data feasibility separately; assess data/measurement support, construct validity, rival discrimination, geographic justification, and journal ceiling without a composite score;
 - distinguish ordinary data cleaning and direct-key joins from novel scientific-object construction, entity resolution, historical reconstruction, or large-scale manual judgment;
 - identify core single points of data failure and require proportionate cheap feasibility evidence before deeper development;
 - when stable output matters, consider portfolio-level data-risk concentration without imposing fixed risk quotas;
 - for causal claims, audit policy/assignment when relevant, counterfactual, estimand, identifying assumptions, and the full causal sequence;
+- when causal ambition exists, actively assess assignment, counterfactual, estimand, identifying assumption, support, and falsification; record explicit ambition resolution and PI approval for material downgrade rather than silently relabeling the branch;
 - identify the cheapest decisive evidence before expensive execution;
 - classify unresolved issues as BLOCKING, MAJOR, or MINOR.
 
@@ -39,6 +42,7 @@ This protocol makes ChatGPT the default **research-judgment and control layer** 
 - require design-specific high-quality or canonical literature justification for a material estimator, inference method, robustness test, mechanism, rival test, heterogeneity dimension, or construct variation before treating availability as scientific value;
 - apply architecture-specific standards to causal, viewpoint-guided, measurement/new-fact, descriptive, spatial, and network evidence;
 - distinguish implementation failure, data failure, claim failure, and Core-Question failure;
+- when material object change is proposed, compare genesis anchor, approved branch fingerprint, and Scope Contract; classify drift, preserve parent history, and use existing affected-branch escalation and PI decision rules; routine implementation repair does not imply a new branch;
 - decide the evidence-to-publication map under `protocols/econ_management_publication_architecture.md`, including what belongs in the central argument, primary exhibit jobs, result provenance, threat-mapped robustness, and main-text versus appendix placement; propose any evidence-driven Claim Ladder or story change for PI review rather than implementing it silently;
 - enforce **Paper Scope ≤ Identified Claim ≤ Evidence**.
 

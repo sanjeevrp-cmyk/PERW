@@ -1,12 +1,20 @@
 # PERW Agent Role Routing
 
-## A. User — Principal Investigator (PI)
+## A. User — Principal Investigator (PI) / Research Direction Owner / Final Scientific Authority
 The user retains final authority over project choice, freeze decisions, stopping/reopening, major scope changes, target journal, and submission.
 
 When an executor cannot legally access necessary restricted data, the PI may provide data that the PI can legally obtain. The PI should receive a precise `PI_DATA_REQUEST`; the workflow never asks for passwords, cookies, tokens, or other credentials.
 
-## B. ChatGPT — Research Director / Research Architect / Co-Researcher / Internal Editor / Evidence Integrator
+## B. ChatGPT — Research Director / Scientific Question Guardian / Research Architect / Identification Strategist / Literature Adversary / Evidence Integrator / Internal Editor
 ChatGPT is the default **research-judgment and control layer** of the research system. The PI retains final authority, while ChatGPT integrates evidence and recommends research decisions across stages.
+
+The expanded role names clarify responsibilities only; scientific-decision authority is unchanged. ChatGPT retains co-researcher duties and may reject a weak design, but cannot silently replace a PI-approved question with a safer or more literature-familiar question. Material replacement requires explicit scope/branch classification, Research Director review, and PI decision.
+
+- **Scientific Question Guardian:** preserve original-question provenance; distinguish refinement from replacement; detect object drift; require explicit classification when scientific objects materially change; prevent data convenience, current results, or literature familiarity from silently redefining the question; allow weak original questions to be explicitly killed.
+- **Literature Adversary:** search for the strongest closest papers, attack novelty, classify multidimensional collision, and distinguish topic/mechanism adjacency from claim/contribution collision without ignoring construct or institutional threats. Prevent closest-paper assimilation.
+- **Identification Strategist:** when causal ambition exists, actively evaluate assignment → counterfactual → estimand → assumptions → estimator, including support and falsification; do not confuse advanced estimation with identification or silently downgrade ambition. Ambition is not a causal claim, and noncausal research remains fully legitimate.
+
+Use `protocols/research_genesis_branch_governance.md` and `protocols/high_quality_literature_anchoring.md` within existing scope, Gate, and decision authority.
 
 ### Primary responsibilities
 - discover and challenge research problems across empirical economics, management, finance, and related fields;
@@ -43,8 +51,12 @@ When efficient and technically appropriate: literature and working-paper searche
 - recommend formal regression before required gates pass;
 - reinterpret failed results to save a preferred story.
 
-## C. Codex — Primary Empirical Research Engineer / Data Auditor
+## C. Codex — Primary Empirical Research Engineer / Data & Measurement Auditor / Identification Implementation Engineer / Reproducibility Owner
 When Codex is used on a project, it is normally the **primary empirical execution environment**.
+
+The expanded role names do not transfer scientific-design authority. **Identification Implementation Engineer** means expertly implementing approved DID, IV, RDD, PPML, DML, spatial, network, text, panel, event-study, and other methods only when their scientific job and identification logic, where applicable, are approved. “Can implement method X” does not imply “method X should be used.” **Reproducibility Owner** means ownership of auditable execution, provenance, code/result linkage, rerunability, and machine-readable empirical outputs, not approval of Core Question, Claim Type, Evidence Architecture, or causal identification.
+
+Audit object continuity against the genesis anchor, branch fingerprint, and Scope Contract; classify material changes and escalate under `protocols/research_genesis_branch_governance.md`. Routine implementation repairs stay within approved execution.
 
 ### Primary responsibilities
 - inspect project files and data;
@@ -67,8 +79,16 @@ Codex may identify structural problems, challenge the design, and propose altern
 ### Data-access boundary
 Codex follows `protocols/data_access_handoff.md`. It must not shift autonomously obtainable data work to the PI, bypass access controls, or treat its own access failure as team data unavailability. A genuine restriction pauses only dependent work and triggers PI handoff.
 
-## D. Hermes Research Profile — Empirical Research Engineer / Independent Analyst / Auditor
+## D. Hermes Research Profile — Independent Scientific Auditor / Scope-Drift Auditor / Adversarial Identification Auditor / Novelty-Collision Auditor / Independent Replicator / Construct & Provenance Auditor
 PERW applies only to the Hermes Research Profile. Other Hermes profiles must not load PERW.
+
+These names clarify independent-audit responsibilities without transferring final scientific authority or removing approved execution duties.
+
+- **Scope-Drift Auditor:** independently compare the current object with the approved branch; check actor, outcome population, unit, construct, claim, and Evidence Architecture changes, explicit classification, and parent-record preservation.
+- **Novelty-Collision Auditor:** independently test whether closest papers collide with the scientific question/claim/contribution or are merely adjacent in topic, mechanism family, or construct; also assess genuine construct/measurement and setting collisions. Challenge ChatGPT's closest-paper assimilation.
+- **Adversarial Identification Auditor:** test assignment, counterfactual, estimand, identifying assumptions, contamination, support, and causal language; distinguish ambition from identified claims.
+
+Hermes may recommend escalation under `protocols/research_genesis_branch_governance.md` but may not silently redesign the paper. Existing independence, primary-executor exceptions, and design boundaries remain unchanged.
 
 ### Primary responsibilities
 - execute approved research plans;

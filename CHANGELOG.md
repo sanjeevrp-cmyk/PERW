@@ -1,5 +1,21 @@
 # PERW Changelog
 
+## v2.8 — 2026-10-05
+
+### MINOR change
+
+PERW adds `protocols/research_genesis_branch_governance.md`, `templates/RESEARCH_GENESIS_ANCHOR.md`, and `templates/RESEARCH_BRANCH_REGISTRY.md`. A stable genesis reference preserves the original scientific question and object as provenance, not a permanent freeze. Qualitative Scientific Object Fingerprints compare the question, actors/populations, primary evidence, unit, construct, relation, mechanism, claim, architecture, ambition, and scientifically material setting without similarity scores.
+
+Material drift is classified as implementation repair, design repair, extension, new branch, or branch replacement through existing scope/escalation authority. Valuable parent branches cannot silently disappear for execution convenience; failed branches may be explicitly killed, and preserving history creates no obligation to continue after scientific NO-GO. Ordinary code, estimator, or source changes do not automatically create branches. New branches inherit no automatic supported claims, Gate decisions, or scope approval.
+
+Literature anchoring adds a nine-dimension novelty-collision audit, qualitative collision conclusions, and explicit occupied/unoccupied-object questions. Topic or mechanism-family adjacency alone is not proof of occupied contribution, and a different estimator does not protect an already answered question. Construct, measurement, and institutional contributions remain independently auditable; no universal novelty formula, weighted score, or automatic decision is introduced. Literature attacks novelty, calibrates claims, and improves design without closest-paper assimilation.
+
+Causal ambition is declared separately from a causal claim. The Research Director assesses assignment, counterfactual, estimand, identifying assumption, support, and falsification and records explicit keep/repair/downgrade/split/hold/no-go resolution. Material downgrade requires PI approval; ambition creates no extra Identification Gate for noncausal claims and grants no causal language without existing identification standards. Noncausal research remains fully legitimate.
+
+ChatGPT's Scientific Question Guardian / Identification Strategist / Literature Adversary, Codex's Data & Measurement Auditor / Identification Implementation Engineer / Reproducibility Owner, and Hermes's independent scope-drift / novelty-collision / identification audit roles clarify responsibilities only. All original execution duties, primary-executor exceptions, review authority, and PI final authority remain intact.
+
+Stage 0–12 structure, Gate routing and passing criteria, Claim Type and Evidence Architecture definitions, causal identification standards, formal Stage 4 Scope Contract and freeze authority, Stop / Reopen rules, and v2.2–v2.7 protections remain unchanged. Central release does not migrate active projects or act on project-specific branches. Adoption and any research-genesis/scope reconciliation for an ongoing project require a separate assessment.
+
 ## v2.7 — 2026-10-01
 
 ### MINOR change
