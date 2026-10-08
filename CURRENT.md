@@ -1,14 +1,18 @@
 # PERW Current Release
 
-CURRENT_VERSION: **v2.8**
+CURRENT_VERSION: **v2.9**
 STATUS: **stable**
-BREAKING_CHANGE_FROM_v2.7: **NO**
+BREAKING_CHANGE_FROM_v2.8: **NO**
 WORKFLOW_ENTRY: `core/WORKFLOW.md`
 PRINCIPLES: `core/PRINCIPLES.md`
 ROLE_ROUTING: `core/ROLE_ROUTING.md`
 CHANGELOG: `CHANGELOG.md`
 
 PERW supports controlled continuous improvement. Proposed changes must first pass `protocols/workflow_update_governance.md`; external ideas and project-specific experience are never adopted without assessment.
+
+## v2.9 minor change
+
+PERW adds Risk-Based Measurement Validation: source-backed pre-production stress tests for unvalidated high-risk core construction; distinct independent replication, blind spot-check, non-blind adversarial audit, and evidence-adjudication modes; asymmetric independent work with necessary predeclared random blind review and shared-error/omission checks; and dependency-based selective revalidation after key rule changes. Agreement is not truth, unresolved material disagreement still stops interpretation, and unverified old results cannot support current claims. Existing reports and provenance are reused without fixed counts, agreement thresholds, mandatory tools, or mechanical double coding. Stage 0–12, Gate routing/criteria, actual agent authority, formal Scope Contract, causal standards, Stop / Reopen rules, and v2.2–v2.8 protections remain unchanged. Active projects do not migrate automatically.
 
 ## v2.8 minor change
 

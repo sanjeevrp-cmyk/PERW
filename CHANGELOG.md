@@ -1,5 +1,19 @@
 # PERW Changelog
 
+## v2.9 — 2026-10-08
+
+### MINOR change
+
+PERW adds `protocols/risk_based_measurement_validation.md`. When core evidence depends on unvalidated complex manual coding, historical states, event boundaries, entity relationships, or multi-source matching, run a bounded source-backed stress test before production scales. Typical, boundary, anomalous, expected error-prone, and relevant excluded cases test the scientific object and actual rules, not merely whether code runs. Verified known-answer cases help when available; synthetic tests and inter-agent agreement do not establish real-world validity. Valid early evidence is reusable, with no universal case count or agreement threshold.
+
+Independent Replication, Blind Independent Spot Check, Non-blind Adversarial Audit, and Evidence Adjudication have distinct purposes. Primary full construction plus independent targeted high-risk/disagreement review and proportionate predeclared stratified random blind checks is allowed. Necessary blind review and common-error discovery across agreed, ordinary, excluded, unmatched, and missing objects remain protected. Targeted samples do not estimate population error rates. Agreement does not prove truth, disagreement does not prove the primary executor wrong, and Codex gains no scientific adjudication authority. Material disagreement still stops interpretation until reconciled against evidence under existing authority.
+
+Key measurement-rule changes trace raw evidence through records, sample membership, constructs, authoritative data, results, exhibits, and manuscript claims. Classify affected artifacts as VERIFIED REUSABLE, REVALIDATION REQUIRED, RECOMPUTE REQUIRED, INVALID FOR CURRENT CLAIM, or UNKNOWN / PENDING. Revalidate or recompute dependent formal results after core unit/state changes; reuse unaffected work only with a documented basis. Local repairs do not automatically restart the project, but cost never justifies stale numbers or weaker evidence.
+
+Early feasibility, independent replication, Research Director review, Stage 6, the core workflow, and a conditional Execution Report section integrate the protocol without a separate audit system. Selectively verified K-Dense, Auto-Empirical-Research-Skills, HumanSignal, cleanlab, and OpenRefine materials informed general validation/review/provenance practices; no repository, software stack, fixed multi-agent loop, automatic label correction, or vendor quality score is adopted as a dependency or scientific standard. Source links and limitations are recorded in the protocol.
+
+Stage 0–12 structure, Gate routing and passing criteria, Claim Type and Evidence Architecture principles, actual agent authority, formal Scope Contract and freeze authority, causal identification standards, Stop / Reopen rules, and v2.2–v2.8 protections remain unchanged. Central release does not modify or migrate active papers; any adoption affecting an active design requires a separate assessment under existing governance.
+
 ## v2.8 — 2026-10-05
 
 ### MINOR change

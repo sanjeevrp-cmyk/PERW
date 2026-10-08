@@ -2,7 +2,7 @@
 
 PERW is a personal research operating system for high-quality empirical economics, management, finance, and related research.
 
-Current stable release: **v2.8**.
+Current stable release: **v2.9**.
 
 It is designed to be read automatically by:
 - **ChatGPT** — Research Director / Scientific Question Guardian / Research Architect / Identification Strategist / Literature Adversary / Evidence Integrator / Internal Editor
@@ -56,6 +56,8 @@ ChatGPT provides stage-specific research-judgment checkpoints through `protocols
 `protocols/research_genesis_branch_governance.md` preserves scientific origin in `templates/RESEARCH_GENESIS_ANCHOR.md` and parent history in `templates/RESEARCH_BRANCH_REGISTRY.md`. Qualitative object fingerprints distinguish implementation/design repair, extension, new branches, and replacement. Literature attacks novelty through a multidimensional collision audit without silently replacing the question. Causal ambition is intent, not a causal claim, and requires explicit assessment/resolution rather than silent downgrade. The anchor is not a design freeze, weak branches may be killed, and no universal novelty score exists. Scope freeze, Gate criteria, causal standards, Stop / Reopen rules, and actual agent authority are unchanged; ongoing projects require separate adoption/migration assessment.
 
 Data access follows `protocols/data_access_handoff.md`: executors autonomously obtain lawfully accessible data, restricted sources trigger a precise PI handoff, and executor access failure never substitutes for a scientific Data / Measurement Gate judgment.
+
+High-risk core construction follows `protocols/risk_based_measurement_validation.md`: validate scientific objects and actual rules with source-backed stress cases before scaling; distinguish replication, blind spot checks, non-blind adversarial audit, and evidence adjudication; allow asymmetric work while preserving necessary blind review and common-error discovery. Key rule changes trigger dependency-based revalidation/recomputation, with verified reuse of unaffected artifacts. Agent agreement is not truth, and unverified old results cannot support current claims. No new Gate, authority, fixed audit quota, mandatory tool, or automatic active-project migration is introduced.
 
 Stage 1–2 candidate development follows `protocols/early_data_feasibility.md`: after independent scientific divergence, candidates about to receive substantial further effort distinguish required, observable, and missing evidence; audit both core-construct and primary-evidence observability; record qualitative Data Risk; and run the cheapest proportionate feasibility test. This allocates research effort and does not replace the Stage 3 Data / Measurement Gate.
 

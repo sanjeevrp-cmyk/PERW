@@ -36,6 +36,12 @@ A variable name in a database is not evidence of construct validity.
 9. **Failure locality.** Classify a data-source or construct failure as `LOCAL` when it removes only a secondary mechanism, robustness check, or extension, and `CORE` when it defeats the Primary Claim, core X, primary evidence, or Core Question. Identify architectures with a core single point of failure.
 10. **Cheapest feasibility test.** Name the smallest test that answers “is expensive data engineering justified?” It need not answer the paper's scientific question.
 
+## High-risk measurement before scaling
+
+When core evidence relies on unvalidated complex manual coding, historical reconstruction, event boundaries, entity relationships, or multi-source matching, use the bounded pre-production stress test in `protocols/risk_based_measurement_validation.md` as the cheapest informative feasibility test. Examine typical, boundary, anomalous, expected failure, and relevant excluded/missing cases with source and rule evidence; distinguish scientific-object validity from code execution and inter-agent agreement. Do not impose a universal sample count or agreement threshold.
+
+The early screen remains a resource-allocation tool, not a new or modified Gate. Stage 6 validates the actual production rules before scaling, reusing applicable early evidence rather than automatically repeating the pilot. A rule change requires tracing affected downstream artifacts; it does not automatically require a whole-project restart or authorize a scope change.
+
 ## Qualitative Data Risk
 
 Record `DATA RISK: LOW / MEDIUM / HIGH / UNKNOWN` with a short rationale. Do not calculate a weighted total or use Data Risk as a publication-quality score.

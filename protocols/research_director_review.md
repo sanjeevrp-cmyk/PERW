@@ -26,6 +26,7 @@ This protocol makes ChatGPT the default **research-judgment and control layer** 
 - compare scientific value and data feasibility separately; assess data/measurement support, construct validity, rival discrimination, geographic justification, and journal ceiling without a composite score;
 - distinguish ordinary data cleaning and direct-key joins from novel scientific-object construction, entity resolution, historical reconstruction, or large-scale manual judgment;
 - identify core single points of data failure and require proportionate cheap feasibility evidence before deeper development;
+- for unvalidated high-risk core measurement, require the bounded pre-production stress test in `protocols/risk_based_measurement_validation.md` before scaling; check unit/event boundaries, source-based known answers where available, difficult cases, and rule scalability without adding a Gate or agreement threshold;
 - when stable output matters, consider portfolio-level data-risk concentration without imposing fixed risk quotas;
 - for causal claims, audit policy/assignment when relevant, counterfactual, estimand, identifying assumptions, and the full causal sequence;
 - when causal ambition exists, actively assess assignment, counterfactual, estimand, identifying assumption, support, and falsification; record explicit ambition resolution and PI approval for material downgrade rather than silently relabeling the branch;
@@ -38,10 +39,12 @@ This protocol makes ChatGPT the default **research-judgment and control layer** 
 
 - review execution evidence rather than relying on execution status;
 - audit data construction, provenance, measurement validity, sample support, primary evidence, diagnostics, robustness, mechanisms, and rival explanations;
+- assess the scientific job of independent replication, blind spot checks, non-blind adversarial audits, and evidence adjudication under `protocols/risk_based_measurement_validation.md`; permit asymmetric effort while preserving necessary blind sampling and shared-error/omission checks, with no agent treated as ground truth;
 - review the scientific role, method fit, and limitations of materially important methods under `protocols/method_runtime_readiness.md`, while executors validate runtime implementation and report readiness evidence;
 - require design-specific high-quality or canonical literature justification for a material estimator, inference method, robustness test, mechanism, rival test, heterogeneity dimension, or construct variation before treating availability as scientific value;
 - apply architecture-specific standards to causal, viewpoint-guided, measurement/new-fact, descriptive, spatial, and network evidence;
 - distinguish implementation failure, data failure, claim failure, and Core-Question failure;
+- after key measurement-rule changes, review the dependency/status map from raw evidence to manuscript claims; permit documented unaffected reuse, require affected results to be revalidated/recomputed, and resolve material disagreements through source evidence and existing authority before interpretation;
 - when material object change is proposed, compare genesis anchor, approved branch fingerprint, and Scope Contract; classify drift, preserve parent history, and use existing affected-branch escalation and PI decision rules; routine implementation repair does not imply a new branch;
 - decide the evidence-to-publication map under `protocols/econ_management_publication_architecture.md`, including what belongs in the central argument, primary exhibit jobs, result provenance, threat-mapped robustness, and main-text versus appendix placement; propose any evidence-driven Claim Ladder or story change for PI review rather than implementing it silently;
 - enforce **Paper Scope ≤ Identified Claim ≤ Evidence**.

@@ -27,3 +27,15 @@ CLAIM IMPLICATION:
 STRUCTURAL ISSUES:
 FILES PRODUCED:
 ESCALATION REQUIRED: YES / NO
+
+## High-risk measurement / construction changes — only when applicable
+
+Reference existing validation/provenance records rather than duplicate them; omit this block for routine unaffected tasks. Follow `protocols/risk_based_measurement_validation.md` without a separate audit system.
+
+PRE-PRODUCTION TEST / TRIGGER / SOURCE & RULE VERSION:
+AUDIT MODE / COVERAGE / BLIND SAMPLING & EXPOSURE REFERENCE:
+COMMON-ERROR / OMISSION CHECKS:
+MATERIAL DISAGREEMENT / EVIDENCE ADJUDICATION / UNRESOLVED ISSUES:
+CHANGE / AFFECTED DEPENDENCIES / ARTIFACT STATUS & BASIS:
+REVALIDATION / RECOMPUTATION / VERIFIED REUSE REFERENCES:
+CURRENT-CLAIM SUPPORT / EXISTING ESCALATION DECISION:
