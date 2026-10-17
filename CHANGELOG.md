@@ -1,5 +1,18 @@
 # PERW Changelog
 
+## v2.10 — 2026-10-17
+
+### MINOR change
+
+- U1: the README authority/navigation map identifies controlling rules, runtime/project responsibilities and historical Stage filenames without renaming them. Bootstrap entries reference the map; GitHub loading discloses the version and provenance of a previously verified cache rather than treating it as live release evidence.
+- U2: the companion local Research OS README indexes existing capability/operation evidence by host, version, date and limits. It does not overwrite historical host_status.json, old reports, approved registries or source locks, and is not deployed host functionality or scientific approval.
+- U3: protocols/execution_spec.md owns task completion and verification reuse. Complete authorized work and necessary consequences, use minimum sufficient checks, preserve mandatory safeguards, selectively revalidate affected dependencies and stop when acceptance criteria are met. agent_handoff.md references that rule without a second review loop.
+- U4: the existing Stage 6 entry distinguishes approved routine transformations, high-risk measurement/construction and frozen-object changes under existing governance. Reversibility is not sufficient for low risk; no automatic unmatched deletion, generic winsorization, complete-case selection or estimator default is authorized.
+
+Selective ideas assessed in the architecture audit informed these bounded repairs: PaperSpine task continuity and actual-output checking; ARS/ARS-Codex task routing and source/claim separation; humanities-thesis-skill source-aware reading; Stop That Shit completion within scope; and approved data-discipline guidance. No external workflow, mandatory ledger/checklist, dependency, Guard, Hook, model menu, Stage, Gate, control Agent or scheduler is imported. Existing sources and locks are not upgraded.
+
+Stage 0–12 structure, Gate routing and passing criteria, scientific authority, Scope freeze, causal standards, scientific Stop / Reopen rules and v2.9 measurement/independence/provenance safeguards remain unchanged. Task completion does not establish scientific validity or pass a scientific Gate. Ongoing projects retain their adopted version, including v2.9, unless their owners explicitly approve migration under existing governance.
+
 ## v2.9 — 2026-10-08
 
 ### MINOR change

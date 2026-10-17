@@ -2,7 +2,7 @@
 
 PERW is a personal research operating system for high-quality empirical economics, management, finance, and related research.
 
-Current stable release: **v2.9**.
+Current stable release: **v2.10** (MINOR).
 
 It is designed to be read automatically by:
 - **ChatGPT** — Research Director / Scientific Question Guardian / Research Architect / Identification Strategist / Literature Adversary / Evidence Integrator / Internal Editor
@@ -45,6 +45,25 @@ PERW/
 └── bootstrap/
 ```
 
+## Authority and navigation
+
+Read CURRENT first, then the three core files and only the task-relevant entries. The layers below divide responsibilities; they do not require moving directories or building another Agent platform. Paths in code spans are repository-root-relative.
+
+| Object | Authoritative source | Supporting records and boundary |
+|---|---|---|
+| Version selection | [CURRENT](CURRENT.md#agent-loading-rule); [update governance](protocols/workflow_update_governance.md) | Use an ongoing project's recorded version; a new central release does not migrate it. |
+| Scientific principles and Agent authority | [PRINCIPLES](core/PRINCIPLES.md); [ROLE_ROUTING](core/ROLE_ROUTING.md) | PI final authority, ChatGPT scientific review, Codex approved implementation, Hermes independent audit/approved execution remain unchanged. Bootstrap files are loading summaries. |
+| Stage 0–12 and conditional Gates | [WORKFLOW](core/WORKFLOW.md); the applicable files in gates/ | stages/ entries are task guidance. Gate routing and passing criteria remain scientific rules, not runtime status. |
+| Genesis, Branch, Scope and escalation | [Genesis/Branch governance](protocols/research_genesis_branch_governance.md); [Stage 4](stages/04_scope_contract.md); [escalation](protocols/escalation_protocol.md) | The paper workspace holds its own Genesis, Branch, formal Scope and decisions. Runtime state must reference these rather than create a second scientific CURRENT. |
+| Skills and runtime capability | [skill routing](protocols/research_skill_routing.md); [method/runtime readiness](protocols/method_runtime_readiness.md) | The actual approved registry/source locks and host execution evidence live in the authorized runtime/project. Published, approved, discovered, guidance used, function executed and validated behavior are distinct; discovery does not prove automatic selection. |
+| Data operations and measurement validity | [Stage 6 routing](stages/06_data_engineering.md#three-class-data-operation-routing); [risk-based validation](protocols/risk_based_measurement_validation.md) | Project sources, construction rules, sample accounting and validation records supply the evidence. Routine transformations do not waive measurement or Scope safeguards. |
+| Execution, completion and evidence reuse | [execution specification](protocols/execution_spec.md#task-completion-and-verification-reuse); [handoff](protocols/agent_handoff.md) | The current authorized task sets outputs and acceptance criteria. Existing reports/checkpoints hold evidence; no new mandatory ledger or report is required. Task completion does not pass a scientific Gate. |
+| Evidence to manuscript | [publication architecture](protocols/econ_management_publication_architecture.md) | Project data/code/results, exhibits and manuscript claims keep their authoritative links; verify results before claims. |
+
+Stage 0 is defined in core/WORKFLOW.md; there is no separate stages/00 file. The historical filename stages/03_stage0_gates.md now contains Stage 3 Routed Feasibility Gates. stages/05_identification.md contains the Evidence & Identification Blueprint for causal and noncausal designs. These paths remain unchanged for existing references.
+
+The PERW core owns general scientific rules; Research OS runtime support owns approved component/host routing and task continuity; each paper workspace owns its scientific state, sources, code, results and manuscript. A runtime capability/evidence index is a navigation view of dated records, not another registry, live host certification or scientific decision-maker.
+
 ## Key design
 
 Research proceeds through:
@@ -86,4 +105,4 @@ Failure of one dataset or one design is not automatically failure of the Core Qu
 
 Agents should first read `CURRENT.md`, then load the current workflow and role rules. They should not reload the whole repository for every message.
 
-If GitHub access is unavailable, an agent must say so and request the workflow file or repo URL rather than pretending it loaded PERW.
+Follow [GitHub loading and verified-cache fallback](protocols/github_loading.md). Disclose failed live access and the exact version/provenance of any previously verified cache; a cache is not evidence of the current online release.

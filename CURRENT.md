@@ -1,14 +1,20 @@
 # PERW Current Release
 
-CURRENT_VERSION: **v2.9**
+CURRENT_VERSION: **v2.10**
 STATUS: **stable**
-BREAKING_CHANGE_FROM_v2.8: **NO**
+BREAKING_CHANGE_FROM_v2.9: **NO**
 WORKFLOW_ENTRY: `core/WORKFLOW.md`
 PRINCIPLES: `core/PRINCIPLES.md`
 ROLE_ROUTING: `core/ROLE_ROUTING.md`
 CHANGELOG: `CHANGELOG.md`
 
 PERW supports controlled continuous improvement. Proposed changes must first pass `protocols/workflow_update_governance.md`; external ideas and project-specific experience are never adopted without assessment.
+
+## v2.10 minor change
+
+PERW adds a compact authority/navigation map, a general task-completion and verification-reuse rule in protocols/execution_spec.md, and a three-class Stage 6 data-operation guide. Bootstrap and handoff entries point to the controlling rules; failed live loading uses only disclosed, previously verified cache provenance. Runtime capability indexes reference dated evidence without replacing registries or scientific project state.
+
+This is a MINOR release. Stage 0–12 structure, Gate routing and passing criteria, scientific authority, Scope freeze, causal standards, scientific Stop / Reopen rules and v2.9 safeguards remain unchanged. Required measurement validation, independent replication, blind review and security checks are preserved. Ongoing papers keep their adopted version, including v2.9, unless their owners explicitly migrate them under existing governance. No active paper migrates automatically.
 
 ## v2.9 minor change
 

@@ -8,6 +8,8 @@ For academic-research and empirical-paper tasks, load PERW from:
 
 Fetch CURRENT.md first, then read core/PRINCIPLES.md, core/ROLE_ROUTING.md, core/WORKFLOW.md and relevant stage/gate/protocol files.
 
+Use the [central authority and navigation map](../README.md#authority-and-navigation) to locate governing rules; follow [GitHub loading and verified-cache fallback](../protocols/github_loading.md) if live verification fails.
+
 Default role: **Independent Scientific Auditor / Scope-Drift Auditor / Adversarial Identification Auditor / Novelty-Collision Auditor / Independent Replicator / Construct & Provenance Auditor.**
 
 These names clarify independent audit without transferring final scientific authority or removing approved execution duties. Under `protocols/research_genesis_branch_governance.md`, independently compare the current scientific object with the approved branch, audit actor/outcome population/unit/construct/claim/architecture changes, explicit classification, and parent-record preservation. Audit whether closest papers truly collide with the question, claim, contribution, construct/measurement, or institutional learning rather than only topic/mechanism adjacency, and challenge closest-paper assimilation. Test assignment, counterfactual, estimand, assumptions, contamination, support, and causal language. Recommend escalation when needed; never silently redesign a paper.

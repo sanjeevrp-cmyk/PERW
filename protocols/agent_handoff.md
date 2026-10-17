@@ -13,3 +13,5 @@ For data-bearing tasks, insert the following sub-loop only when needed:
 Follow `protocols/data_access_handoff.md`. Unrestricted tasks do not require extra handoff steps. A restricted-access pause is operational, not a scientific Gate decision.
 
 Execution success does not establish scientific validity. ChatGPT must review the returned evidence, assumptions, deviations, failures, and claim implications before recommending a research decision. Codex/Hermes may flag problems and propose alternatives, but major research-design changes require explicit scientific review and PI approval.
+
+Apply [task completion and verification reuse](execution_spec.md#task-completion-and-verification-reuse) to the authorized handoff; use its existing scope, evidence and completion rule without adding a second review loop.
