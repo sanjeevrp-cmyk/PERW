@@ -27,6 +27,34 @@ Classify each material fit decision as:
 
 Reject any skill that optimizes significance, searches outcomes/specifications/samples for publishable results, suppresses null or unfavorable evidence, treats formatting consistency as scientific verification, upgrades causal language, or substitutes a fixed journal template for Claim Type and Evidence Architecture. A skill catalog's inclusion of a method is not approval to use it.
 
+## Candidate disposition vocabulary
+
+Candidate disposition describes how a component is handled, independently of scientific approval and runtime evidence:
+
+| Disposition | Meaning |
+|---|---|
+| `INSTALLED` | The named external component is installed or directly integrated at the recorded version and scope. This proves neither scientific approval nor successful execution. |
+| `DISTILLED` | Reviewed ideas or capabilities have been incorporated into an existing protocol or skill. Record what was retained and its source; this does not imply upstream code was copied or executed. |
+| `HOLD` | An unresolved source, license, dependency, security, fit or validation issue prevents the affected use. Record the issue and the condition for resuming it. |
+| `REJECTED` | The candidate is declined for a stated conflict, overlap, license, risk or cost-benefit reason. |
+
+Installation, distillation and adapted calling are handling choices. Adaptation is an integration mode, not proof of installation, approval or validation. Use an existing registry's equivalent fields and compatible mappings; do not create a second registry, overwrite historical states, or collapse `scientific_approval`, per-operation/per-host status and execution evidence into disposition. A mapping needs evidence: `APPROVED_COMPONENT` or `APPROVED_GUIDANCE_ONLY` alone does not establish `INSTALLED` or `DISTILLED`.
+
+Keep external existence/discovery, installed software, project implementation, scientific approval, actual function/command execution and validated execution separate. Reading guidance does not prove that its original script ran. Execution on one host or operation does not validate another. Preserve the independent capability states in [method/runtime readiness](method_runtime_readiness.md).
+
+## Proportionate candidate admission
+
+Before admitting or materially changing a selected component, reuse applicable evidence and check:
+
+1. Source identity, pinned version/commit where reproducibility warrants, license/redistribution terms and security boundaries. Unresolved permission to copy or execute stays `HOLD`; do not copy unlicensed material.
+2. Implementation, dependencies, maintenance and actual host compatibility, including network, credentials and side effects where relevant.
+3. Overlap with existing PERW, skills and native functions. Prefer a sufficient existing capability; popularity is only a discovery signal, never proof of methodological quality, licensing or reliability.
+4. Component class and methodological impact: method knowledge, executable tool or end-to-end workflow; identify whether it affects scientific judgment or protected research objects.
+5. Handling: install/directly integrate, distill, adapt an approved call, `HOLD`, or reject; record the rationale and operation boundaries in the existing record, without automatically changing any approval.
+6. The smallest validation that demonstrates the intended use: tools require a relevant fixture or actual run with checked outputs; method guidance requires inspectable sources, fit review and a bounded real-task trial; end-to-end workflows contribute only applicable reviewed components. A tool with no scientific decision role needs no invented method-approval gate, but its output cannot authorize a method or replace required data/measurement checks.
+
+Apply the existing authority/conflict order above throughout. Validation is local to the recorded version, host, operation and task; installation or a smoke test never changes the Core Question, Claim Type, Evidence Architecture, sample population, causal objects, Stage/Gate or scientific authority. No batch installation or automatic active-project migration follows from admission.
+
 ## External end-to-end workflows
 
 Treat an external end-to-end research workflow as a **capability collection**, not a second central workflow. Load only the task-relevant component: citation-topology tactics may support literature search; execution/archive conventions may support reproducibility; table, figure, or writing checks may support approved deliverables. Its Stage order, method menu, universal endogeneity phase, mechanism template, heterogeneity battery, significance-improvement loop, journal format, or thesis format never controls a PERW project.
