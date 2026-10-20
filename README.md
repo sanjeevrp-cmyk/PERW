@@ -2,7 +2,11 @@
 
 PERW is a personal research operating system for high-quality empirical economics, management, finance, and related research.
 
-Current stable release: **v2.10** (MINOR).
+Current stable release: **v2.11** (MINOR).
+
+v2.11 clarifies [Skills admission and routing](protocols/research_skill_routing.md): four admission decisions with evidenced dispositions, three permitted HOLD reasons, same-task replacement comparisons, and method distillation in existing skills/checks. Already-distilled baselines cannot establish no incremental value; adoption is separate from project discoverability, and derived views grant no admission authority. See [CURRENT](CURRENT.md) and [release notes](CHANGELOG.md#v211--2026-10-20).
+
+Research Skills implicit AUTO remains **NOT_PROVEN**. Verified evidence covers project-level discovery and bounded local **PINNED** application, not implicit host selection or scientific validity. Scientific authority and Stage/Gate rules are unchanged; active papers do not migrate automatically.
 
 It is designed to be read automatically by:
 - **ChatGPT** — Research Director / Scientific Question Guardian / Research Architect / Identification Strategist / Literature Adversary / Evidence Integrator / Internal Editor

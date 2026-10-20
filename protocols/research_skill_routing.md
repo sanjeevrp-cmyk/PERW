@@ -27,31 +27,43 @@ Classify each material fit decision as:
 
 Reject any skill that optimizes significance, searches outcomes/specifications/samples for publishable results, suppresses null or unfavorable evidence, treats formatting consistency as scientific verification, upgrades causal language, or substitutes a fixed journal template for Claim Type and Evidence Architecture. A skill catalog's inclusion of a method is not approval to use it.
 
-## Candidate disposition vocabulary
+## Candidate admission decisions and disposition
 
-Candidate disposition describes how a component is handled, independently of scientific approval and runtime evidence:
+Each candidate has exactly one admission decision: `INSTALL`, `DISTILL`, `REJECT` or `HOLD`. Keep this decision separate from the evidenced disposition, scientific approval and runtime evidence:
 
-| Disposition | Meaning |
-|---|---|
-| `INSTALLED` | The named external component is installed or directly integrated at the recorded version and scope. This proves neither scientific approval nor successful execution. |
-| `DISTILLED` | Reviewed ideas or capabilities have been incorporated into an existing protocol or skill. Record what was retained and its source; this does not imply upstream code was copied or executed. |
-| `HOLD` | An unresolved source, license, dependency, security, fit or validation issue prevents the affected use. Record the issue and the condition for resuming it. |
-| `REJECTED` | The candidate is declined for a stated conflict, overlap, license, risk or cost-benefit reason. |
+| Admission decision | Intended action | Evidenced disposition |
+|---|---|---|
+| `INSTALL` | Install or directly integrate the named component within its approved version and scope. | `INSTALLED` only when that implementation exists; not proof of scientific approval or successful execution. |
+| `DISTILL` | Retain reviewed, useful method logic in an existing skill or check. | `DISTILLED` only when incorporation is documented, with the retained logic and source; not proof that upstream code was copied or executed. |
+| `REJECT` | Decline the affected candidate or integration with a documented reason under the criteria below. | `REJECTED`; functional overlap alone is insufficient. |
+| `HOLD` | Suspend the affected use for one of the three reasons below. | `HOLD`, with the specific blocker and unlock condition. |
 
-Installation, distillation and adapted calling are handling choices. Adaptation is an integration mode, not proof of installation, approval or validation. Use an existing registry's equivalent fields and compatible mappings; do not create a second registry, overwrite historical states, or collapse `scientific_approval`, per-operation/per-host status and execution evidence into disposition. A mapping needs evidence: `APPROVED_COMPONENT` or `APPROVED_GUIDANCE_ONLY` alone does not establish `INSTALLED` or `DISTILLED`.
+Only these HOLD reasons are permitted:
+
+- `LICENSE_UNRESOLVED`: the license or permission boundary of the specific component is unresolved.
+- `DEPENDENCY_UNAVAILABLE`: a necessary dependency or actual access condition is unavailable.
+- `CONFLICT_NO_REPLACEMENT_VALUE`: a direct conflict with an existing capability lacks sufficient justification for replacing that capability.
+
+Record both the blocker and unlock condition for every HOLD. Temporary non-use at the current Stage is not a HOLD reason. Source, security, fit and validation checks remain necessary, but do not create additional HOLD categories; unacceptable risks or scientific conflicts remain subject to rejection under the authority/conflict order.
+
+Admission decisions authorize handling; they do not prove completion. Record an unimplemented action in the existing action/evidence fields without inventing a fifth admission decision or claiming `INSTALLED` or `DISTILLED`. Adaptation is an integration mode, not another admission decision or proof of installation, approval or validation. Use an existing registry's equivalent fields and compatible mappings; do not create a second registry, overwrite historical states, or collapse `scientific_approval`, per-operation/per-host status and execution evidence into disposition. A mapping needs evidence: `APPROVED_COMPONENT` or `APPROVED_GUIDANCE_ONLY` alone does not establish `INSTALLED` or `DISTILLED`.
 
 Keep external existence/discovery, installed software, project implementation, scientific approval, actual function/command execution and validated execution separate. Reading guidance does not prove that its original script ran. Execution on one host or operation does not validate another. Preserve the independent capability states in [method/runtime readiness](method_runtime_readiness.md).
+
+`ADOPTION` does not establish `DISCOVERABLE`: installation or distillation records do not prove that the current host can discover an entry from the active project directory. Record native discovery separately with the observed host and working-directory scope; discovery does not grant admission or execution approval. Derived catalogs, exports and discovery views confer no admission authority and must not replace the existing authoritative registry.
 
 ## Proportionate candidate admission
 
 Before admitting or materially changing a selected component, reuse applicable evidence and check:
 
-1. Source identity, pinned version/commit where reproducibility warrants, license/redistribution terms and security boundaries. Unresolved permission to copy or execute stays `HOLD`; do not copy unlicensed material.
+1. Source identity, pinned version/commit where reproducibility warrants, license/redistribution terms and security boundaries. Unresolved permission to copy or execute is `HOLD / LICENSE_UNRESOLVED`; do not copy or execute material without the required permission.
 2. Implementation, dependencies, maintenance and actual host compatibility, including network, credentials and side effects where relevant.
-3. Overlap with existing PERW, skills and native functions. Prefer a sufficient existing capability; popularity is only a discovery signal, never proof of methodological quality, licensing or reliability.
+3. Overlap with existing PERW, skills and native functions. Functional overlap alone cannot justify `REJECT`. Where a lawful, feasible and comparable replacement opportunity exists, judge performance on the same bounded task and inputs using predeclared criteria, reusing applicable evidence. Replacement requires no critical error or material regression and a clear advantage in at least one predeclared dimension, including justified maintenance cost. Evidence of insufficient benefit may justify rejecting a new integration; overlap itself does not. Popularity is only a discovery signal, never proof of methodological quality, licensing or reliability.
 4. Component class and methodological impact: method knowledge, executable tool or end-to-end workflow; identify whether it affects scientific judgment or protected research objects.
-5. Handling: install/directly integrate, distill, adapt an approved call, `HOLD`, or reject; record the rationale and operation boundaries in the existing record, without automatically changing any approval.
+5. Record one of `INSTALL / DISTILL / REJECT / HOLD` and the evidenced action/disposition using the mapping above, with rationale and operation boundaries; do not automatically change any approval. Put method distillation first in existing skills, checks or the unique corresponding capability directory; if a sufficient check already exists, record the source and retained logic without duplicating it. Candidate additions do not justify expanding other central protocols. Retire a replaced step only after the replacement passes acceptance; do not maintain duplicate implementations indefinitely.
 6. The smallest validation that demonstrates the intended use: tools require a relevant fixture or actual run with checked outputs; method guidance requires inspectable sources, fit review and a bounded real-task trial; end-to-end workflows contribute only applicable reviewed components. A tool with no scientific decision role needs no invented method-approval gate, but its output cannot authorize a method or replace required data/measurement checks.
+
+Check whether the baseline already incorporates the candidate's distilled logic before interpreting a comparison. Such baseline contamination is not evidence of no incremental value: for an already-distilled component, record `ALREADY_DISTILLED_TEST_CANNOT_RESOLVE`, retain the original outputs and existing distillation, and do not infer rejection from similar outputs. This is a comparison-evidence label, not a new admission disposition or an instruction to rerun tests.
 
 Apply the existing authority/conflict order above throughout. Validation is local to the recorded version, host, operation and task; installation or a smoke test never changes the Core Question, Claim Type, Evidence Architecture, sample population, causal objects, Stage/Gate or scientific authority. No batch installation or automatic active-project migration follows from admission.
 

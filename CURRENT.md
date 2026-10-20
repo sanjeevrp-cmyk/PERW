@@ -1,14 +1,22 @@
 # PERW Current Release
 
-CURRENT_VERSION: **v2.10**
+CURRENT_VERSION: **v2.11**
 STATUS: **stable**
-BREAKING_CHANGE_FROM_v2.9: **NO**
+BREAKING_CHANGE_FROM_v2.10: **NO**
 WORKFLOW_ENTRY: `core/WORKFLOW.md`
 PRINCIPLES: `core/PRINCIPLES.md`
 ROLE_ROUTING: `core/ROLE_ROUTING.md`
 CHANGELOG: `CHANGELOG.md`
 
 PERW supports controlled continuous improvement. Proposed changes must first pass `protocols/workflow_update_governance.md`; external ideas and project-specific experience are never adopted without assessment.
+
+## v2.11 minor change
+
+PERW clarifies Skills admission in `protocols/research_skill_routing.md`: map `INSTALL / DISTILL / REJECT / HOLD` decisions to evidenced dispositions; limit HOLD to unresolved licensing, unavailable necessary dependencies/access, or direct capability conflict without sufficient replacement justification; judge lawful comparable replacements on the same task rather than rejecting functional overlap alone. Method distillation belongs first in existing skills/checks. Already-distilled baseline contamination cannot establish no incremental value. Adoption does not prove discoverability, and derived views grant no admission authority.
+
+Research Skills implicit AUTO remains **NOT_PROVEN**. Verified evidence covers project-level discovery and bounded local **PINNED** guidance/application, including a selected original data function; it does not establish implicit host selection or scientific validity.
+
+This is a MINOR release. Stage/Gate rules, scientific authority, frozen research objects, causal standards and prior safeguards remain unchanged. Existing registries, source locks and historical evidence retain their authority. Ongoing papers keep their adopted version unless separately approved for migration; no active paper migrates automatically.
 
 ## v2.10 minor change
 

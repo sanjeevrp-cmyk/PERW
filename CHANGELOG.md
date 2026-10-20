@@ -1,5 +1,19 @@
 # PERW Changelog
 
+## v2.11 — 2026-10-20
+
+### MINOR change
+
+- `protocols/research_skill_routing.md` separates `INSTALL / DISTILL / REJECT / HOLD` admission decisions from evidenced implementation/disposition, scientific approval and host execution. Existing registry mappings require evidence; no second registry or historical-state overwrite is authorized.
+- HOLD is restricted to `LICENSE_UNRESOLVED`, `DEPENDENCY_UNAVAILABLE` and `CONFLICT_NO_REPLACEMENT_VALUE`, with a concrete blocker and unlock condition. Current-stage non-use is not a HOLD reason.
+- Functional overlap alone does not justify rejection. Lawful, feasible and comparable replacements use the same bounded task/inputs and predeclared criteria, without critical errors or material regressions and with at least one clear advantage. Existing valid evidence is reused; a replaced step retires only after acceptance.
+- Method guidance is distilled first into existing skills/checks or the unique capability directory, without expanding other central protocols. An already-distilled baseline cannot demonstrate no incremental value: preserve the existing distillation and use `ALREADY_DISTILLED_TEST_CANNOT_RESOLVE` for that comparison.
+- `ADOPTION` does not establish `DISCOVERABLE`; discovery is scoped to the observed host and project directory. Derived catalogs and exports grant no admission authority.
+
+**Execution evidence boundary:** research Skills implicit AUTO remains **NOT_PROVEN**. Verified evidence is project-level discovery and bounded local **PINNED** application: selected guidance was applied, and one selected original data function was executed. This does not validate implicit host selection, all approved components, or scientific claims. Six-candidate comparisons were not rerun for release.
+
+The final explanatory reconciliation is PATCH-level; the v2.11 release as a whole is MINOR. Stage 0–12, Gate routing/passing criteria, scientific authority, Claim Type, Evidence Architecture, frozen objects, causal standards, Stop/Reopen rules and prior safeguards remain unchanged. No software/skill is made mandatory, no historical admission is automatically changed, and active papers retain their adopted version unless separately approved for migration.
+
 ## v2.10 — 2026-10-17
 
 ### MINOR change
