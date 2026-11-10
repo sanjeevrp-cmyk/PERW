@@ -109,6 +109,8 @@ High topic similarity or general mechanism-family similarity alone is not proof 
 
 Abstract-only reading is normally insufficient when a paper justifies a construct, identification strategy, estimator, mechanism, robustness procedure, or paper-architecture claim. Prefer full text and label any limitation. Do not state that a paper uses a method or supports a claim unless the source actually does so. Whenever practical, verify the original source rather than relying on a secondary citation.
 
+Keep lawfully obtained full texts used for consequential judgments in the project's designated literature-source directory. Record the bibliographic identity, version, actual reading depth, occupied claim, and source path in the existing active Literature Map. For sources available only online, record the exact link and what was read. Ordinary background sources can be checked at the depth needed for their use.
+
 Short quotations may be stored for verification within applicable limits. They are not manuscript-ready prose. Manuscript synthesis must be independently written, accurately attributed, and citation-verified; do not patch together source sentences.
 
 ## Stage integration and maintenance

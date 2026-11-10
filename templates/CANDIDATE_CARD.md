@@ -34,13 +34,14 @@ CHEAPEST FEASIBILITY TEST:
 CLOSEST LITERATURE:
 CLOSEST PAPER ARCHITECTURE:
 NOVELTY COLLISION AUDIT REFERENCE: multidimensional comparison, occupied/unoccupied objects, qualitative conclusion and evidence
-RESIDUAL CONTRIBUTION:
-MAIN RIVAL EXPLANATION:
+RESIDUAL CONTRIBUTION: closest paper's specific finding, testable addition, and what would be learned under a null, contrary, or inconclusive result
+MAIN RIVAL EXPLANATION: comparison and observable implication that would discriminate where feasible; otherwise the ambiguity to carry into interpretation
 MAIN VALIDITY THREAT:
 WORKLOAD:
 JOURNAL CEILING:
 CHEAPEST KILL TEST:
 PRELIMINARY DECISION: KEEP / HOLD / DROP
+NEXT DATA INVESTMENT, IF NEEDED: scientific question, source/table/fields, uncertainty resolved, cheapest viable alternative, and decision
 
 ## Conditional causal fields
 

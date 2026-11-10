@@ -61,6 +61,8 @@ Use three distinct lenses:
 
 **Checkpoint:** synthesize the three reviews, resolve every BLOCKING issue, refresh the closest-literature/frontier scan when material time has passed, verify central citations and benchmark metadata, and verify manuscript-to-evidence consistency on the exact submission deliverable after the last material edit before recommending submission.
 
+Use the existing R2 review for a bounded contribution challenge before submission. Ask which closest result could occupy the claim, which rival still fits the evidence, and whether the central exhibit supports the stated difference. Reuse equivalent independent review for the same claim, evidence, and literature coverage. If one of those inputs changes materially, review the affected point through the existing roles.
+
 Journal quartile and citation count are source metadata, not a composite score for scientific importance, validity, contribution, or method fit.
 
 ## Finding severity

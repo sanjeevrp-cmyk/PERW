@@ -57,6 +57,8 @@ Record `DATA RISK: LOW / MEDIUM / HIGH / UNKNOWN` with a short rationale. Do not
 
 Record a reasoned next step: continue candidate development, run a bounded feasibility test first, defer pending a named capability or source, or remove the candidate from the current shortlist. This is a resource-allocation decision, not a scientific-validity Gate decision.
 
+Reuse the team's verified data-capability record. If additional access or purchase is warranted, use the existing candidate record or data request to state the scientific question, the source, table and fields, the consequential uncertainty they would resolve, and the cheapest viable alternative. Track untested delivery or access separately from confirmed unavailability.
+
 When the PI values stable paper output, show scientific upside—including what is learned from null or contradictory outcomes—Data Risk, workload, and cheapest feasibility evidence together. Maintain risk heterogeneity when practical; do not require fixed counts of LOW, MEDIUM, or HIGH candidates. Avoid a shortlist in which every candidate depends on the same unverified high-risk construction.
 
 An early pilot that looks feasible still must pass the formal Stage 3 Data / Measurement Gate. A failed early test may redirect or defer development, but it does not silently redefine the Core Question or replace existing Stop / Reopen rules.

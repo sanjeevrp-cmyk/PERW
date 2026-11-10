@@ -1,5 +1,15 @@
 # PERW Changelog
 
+## v2.12 — 2026-11-10
+
+### MINOR change
+
+- Stage 1–2 and the Candidate Card connect independent question generation, closest-paper anchoring, cheap observability testing, and candidate/data-investment decisions.
+- Stage 5 clarifies observable rival comparisons. Stage 10 records the strongest result, its difference from the closest paper, its supporting exhibit, rivals, and inference boundary in the existing publication architecture. `REPAIR REQUIRED` marks an unresolved writing handoff.
+- Stage 11 revises the opening and summary sections from stabilized evidence and pairs consequential limits with the relevant estimates. The existing Stage 12 contribution review reuses equivalent independent evidence where applicable. Key lawfully obtained full texts are traced in the active Literature Map.
+
+The release uses existing Stage and Gate criteria, scientific authority, primary-evidence and Scope protections, and migration governance.
+
 ## v2.11 — 2026-10-20
 
 ### MINOR change

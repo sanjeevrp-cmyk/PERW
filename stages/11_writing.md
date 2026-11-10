@@ -6,7 +6,7 @@ Follow `protocols/manuscript_argument_integrity.md`:
 2. Use lightweight section/paragraph contracts: FUNCTION, CLAIM, AUTHORIZED EVIDENCE, INFERENCE LIMIT, BRIDGE. Draft an evidence-led argument rather than a process diary.
 3. Run a claim-forward prose pass and an anti-defensive audit: remove empty hedges and ritual self-criticism, but retain material limits and unfavorable evidence.
 4. Check top-down and bottom-up alignment; classify substantive changes and synchronize affected manuscript and submission files.
-5. Rebuild Introduction, Abstract, and Title from the stabilized evidence system, not the proposal-era narrative; check the exact deliverable after the last material edit.
+5. Rebuild Introduction, Abstract, Conclusion, and Title from stabilized evidence and the Stage 10 handoff. Check the exact deliverable after the last material edit.
 
 Also follow the approved map in `protocols/econ_management_publication_architecture.md`: verify results before claims, give each main exhibit one primary scientific job, distinguish precision from magnitude and causal meaning, and reconcile headline numbers after reruns or material edits.
 

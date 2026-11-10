@@ -41,4 +41,6 @@ Classify each edit as **SEMANTIC / CLAIM**, **EVIDENCE / RESULT**, **METADATA**,
 
 ## 7. Exact-deliverable check
 
-Rebuild Introduction, Abstract, and Title from the stabilized full evidence system rather than patching a proposal-era narrative. Audit the exact manuscript and companion files intended for submission, not an earlier draft. After any material edit, rerun the affected claim–evidence, number, citation, cross-section, and submission-package consistency checks. An unresolved blocking mismatch prevents a submission recommendation.
+Rebuild the Introduction, Abstract, Conclusion, and Title from the stabilized evidence and Stage 10 handoff. Ground the opening in the phenomenon or puzzle the primary evidence can address, then connect it to the precise closest-paper difference. Use the abstract and conclusion to state the same supported finding in words, with direction where meaningful. In the results, explain what the key comparison distinguishes and put any interpretation-changing model dependence or limits on a component analysis next to the affected estimates. Close with the substantive implication the evidence warrants.
+
+Audit the exact manuscript and companion files intended for submission, not an earlier draft. After any material edit, rerun the affected claim–evidence, number, citation, cross-section, and submission-package consistency checks. An unresolved blocking mismatch prevents a submission recommendation.

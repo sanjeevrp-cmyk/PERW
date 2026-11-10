@@ -7,6 +7,17 @@ EVIDENCE ARCHITECTURE:
 TARGET FIELD / JOURNAL GUIDANCE CHECKED:
 LAST VERIFIED RUN:
 
+## Contribution handoff
+
+Reuse the existing decision or evidence map when it already covers these points.
+
+STRONGEST SUPPORTED FINDING:
+CLOSEST PAPER'S SPECIFIC RESULT / TESTABLE ADDITION:
+CORE EXHIBIT OR VERIFIED COMPARISON:
+CONSEQUENTIAL RIVALS / WHAT THE EVIDENCE DISTINGUISHES:
+CLAIM BOUNDARY:
+DRAFTING STATUS: READY / REPAIR REQUIRED
+
 ## Exhibit register
 
 Repeat one block per proposed exhibit. Use `N/A` for irrelevant conditional fields.

@@ -1,14 +1,18 @@
 # PERW Current Release
 
-CURRENT_VERSION: **v2.11**
+CURRENT_VERSION: **v2.12**
 STATUS: **stable**
-BREAKING_CHANGE_FROM_v2.10: **NO**
+BREAKING_CHANGE_FROM_v2.11: **NO**
 WORKFLOW_ENTRY: `core/WORKFLOW.md`
 PRINCIPLES: `core/PRINCIPLES.md`
 ROLE_ROUTING: `core/ROLE_ROUTING.md`
 CHANGELOG: `CHANGELOG.md`
 
 PERW supports controlled continuous improvement. Proposed changes must first pass `protocols/workflow_update_governance.md`; external ideas and project-specific experience are never adopted without assessment.
+
+## v2.12 minor change
+
+PERW connects the Stage 1–2 candidate cycle and low-cost data investment decision to the existing Candidate Card, and connects the verified Stage 10 finding and closest-paper difference to the Stage 11 manuscript. Use `protocols/econ_management_publication_architecture.md` for the contribution handoff, `protocols/manuscript_argument_integrity.md` for writing from stable evidence, and the existing Stage 12 review for a bounded contribution challenge with equivalent evidence reused. Record key full texts in the active Literature Map. This release uses existing Gates, scientific authority, and Scope protections. Active projects retain their adopted version under the migration rules below.
 
 ## v2.11 minor change
 

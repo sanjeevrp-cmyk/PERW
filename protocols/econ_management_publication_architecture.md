@@ -17,6 +17,8 @@ Placement is determined by scientific function and importance to the central cla
 
 Before full drafting, maintain a lean publication architecture using `templates/PUBLICATION_ARCHITECTURE.md`. For every proposed exhibit, record its primary scientific job, the claim it supports, its authoritative result source, its intended layer, and the threat or rival it addresses when applicable. Mark irrelevant conditional fields `N/A`; do not create empty paperwork.
 
+At the Stage 10 handoff, record the strongest verified finding, the closest paper's specific result and the empirical difference, the core exhibit, the main rival explanations and what the comparisons separate, and the inference boundary. Reuse an existing map or decision. If the evidence cannot yet support a distinct contribution, mark the drafting handoff `REPAIR REQUIRED` and identify the smallest useful literature, interpretation, or evidence repair. Apply existing Stage 12 submission criteria and Scope/escalation rules to any substantive problem.
+
 Each main exhibit has **one primary scientific job**. It may contain multiple panels or models only when they jointly perform that job. If an exhibit tries to establish the main result, robustness, mechanism, heterogeneity, and context at once, split it or demote secondary material.
 
 There is no universal number, sequence, or journal-house format for tables and figures. Architecture follows Claim Type, Evidence Architecture, field conventions, and the target journal's current instructions. Adaptation should use a small verified set of relevant exemplars plus current author guidance; an external template is evidence about presentation, not authority over the research design.
