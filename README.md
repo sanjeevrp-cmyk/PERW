@@ -2,9 +2,9 @@
 
 PERW is a personal research operating system for high-quality empirical economics, management, finance, and related research.
 
-Current stable release: **v3.0** (BREAKING).
+Current stable release: **v3.0.1** (PATCH).
 
-Four work packages support established-design contributions and replications, standing authority for low-risk data work, mature native Skills, and target-journal first submission. Existing active papers keep their adopted versions. See [CURRENT](CURRENT.md) and [release notes](CHANGELOG.md#v30--2026-11-26).
+Four work packages support established-design contributions and replications, standing authority for low-risk data work, mature native Skills, and target-journal first submission. Existing active papers keep their adopted versions. See [CURRENT](CURRENT.md) and [release notes](CHANGELOG.md#v301--2026-11-26).
 
 It is designed to be read automatically by:
 - **ChatGPT** — Research Director / Scientific Question Guardian / Research Architect / Identification Strategist / Literature Adversary / Evidence Integrator / Internal Editor

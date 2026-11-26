@@ -3,8 +3,8 @@
 ## Universal HOLD / STOP conditions
 
 - the Core Question lacks sufficient scientific importance;
-- the contribution is occupied;
-- the proposed geography adds no scientific value;
+- the closest verified work occupies the specific contribution and no meaningful increment or valuable independent replication remains after considering proportionate repair under the [Competition / Contribution Gate](competition_gate.md);
+- the proposed geography lacks a defensible rationale for the intended claim under the applicable [Geographic Scope / Spatial Validity Gate](geography_scope_gate.md), including learning about institutions or external validity;
 - the key construct cannot be observed, measured, or validated;
 - the data cannot support the intended claim;
 - the Evidence Architecture cannot discriminate the focal claim from serious rivals;

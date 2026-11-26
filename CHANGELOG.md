@@ -1,5 +1,9 @@
 # PERW Changelog
 
+## v3.0.1 — 2026-11-26
+
+**PATCH.** Align Role Routing and Stop / Reopen wording with the v3.0 Competition / Contribution Gate on meaningful extensions and valuable independent replication. The existing decision authority and reopening condition apply. Active projects keep their adopted versions.
+
 ## v3.0 — 2026-11-26
 
 **BREAKING · PI approved.**

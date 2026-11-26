@@ -1,7 +1,7 @@
 {
   "name": "Personal Empirical Research Workflow",
   "short_name": "PERW",
-  "current_version": "v3.0",
+  "current_version": "v3.0.1",
   "status": "stable",
   "breaking_change_from_v1_0": true,
   "breaking_change_from_v1_1": false,
@@ -19,6 +19,7 @@
   "breaking_change_from_v2_10": false,
   "breaking_change_from_v2_11": false,
   "breaking_change_from_v2_12": true,
+  "breaking_change_from_v3_0": false,
   "entrypoints": {
     "current": "CURRENT.md",
     "principles": "core/PRINCIPLES.md",

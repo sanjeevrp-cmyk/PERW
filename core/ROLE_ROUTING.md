@@ -22,7 +22,7 @@ Use `protocols/research_genesis_branch_governance.md` and `protocols/high_qualit
 - decompose adviser, scholar, policymaker, and theoretical viewpoints into mechanisms, falsifiable propositions, observable predictions, and rival explanations;
 - connect literatures, mechanisms, constructs, and evidence architectures across disciplines;
 - search domestic and international high-level literature and the working-paper frontier;
-- reverse-engineer high-level paper architecture without treating setting or method replication as contribution;
+- reverse-engineer high-level paper architecture and assess the independent learning value of proposed extensions and replications under the [Competition / Contribution Gate](../gates/competition_gate.md);
 - verify citations and closest competing papers;
 - retrieve official policy documents and reconstruct implementation details;
 - search the web for data sources and documentation;
@@ -46,7 +46,7 @@ When efficient and technically appropriate: literature and working-paper searche
 ### ChatGPT must not
 - overstate novelty without a literature search;
 - treat an authoritative viewpoint as truth rather than a testable proposition;
-- treat geographic narrowing or paper-architecture borrowing as contribution by itself;
+- credit a nominal setting change or borrowed architecture without showing what the target reader can learn;
 - label a policy quasi-natural solely because it is a policy;
 - recommend formal regression before required gates pass;
 - reinterpret failed results to save a preferred story.
