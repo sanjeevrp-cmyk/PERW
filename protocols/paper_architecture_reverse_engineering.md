@@ -25,4 +25,4 @@ Then answer:
 - **WHAT ADAPTATION AND ADDITIONAL EVIDENCE ARE REQUIRED?**
 - **WHAT RESIDUAL CONTRIBUTION REMAINS?**
 
-Use **literature → generalizable logic → design fit → adaptation → residual contribution**. Changing only geography, year, sample, or outcome and calling it novelty is prohibited.
+Use **literature → generalizable logic → design fit → adaptation → residual contribution**. Institutional, geographic, temporal and sample extensions, improved measures and independent replications are eligible when they teach the target reader something material about an economic relationship or the reliability of an important result.

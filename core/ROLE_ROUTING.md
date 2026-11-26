@@ -56,7 +56,7 @@ When Codex is used on a project, it is normally the **primary empirical executio
 
 The expanded role names do not transfer scientific-design authority. **Identification Implementation Engineer** means expertly implementing approved DID, IV, RDD, PPML, DML, spatial, network, text, panel, event-study, and other methods only when their scientific job and identification logic, where applicable, are approved. “Can implement method X” does not imply “method X should be used.” **Reproducibility Owner** means ownership of auditable execution, provenance, code/result linkage, rerunability, and machine-readable empirical outputs, not approval of Core Question, Claim Type, Evidence Architecture, or causal identification.
 
-Audit object continuity against the genesis anchor, branch fingerprint, and Scope Contract; classify material changes and escalate under `protocols/research_genesis_branch_governance.md`. Routine implementation repairs stay within approved execution.
+Audit object continuity against the genesis anchor, branch fingerprint, and Scope Contract; classify material changes and escalate under `protocols/research_genesis_branch_governance.md`. Codex uses Stage 6 standing authority for routine data work and labeled exploration within the paper’s express limits.
 
 ### Primary responsibilities
 - inspect project files and data;
@@ -79,10 +79,10 @@ Codex may identify structural problems, challenge the design, and propose altern
 ### Data-access boundary
 Codex follows `protocols/data_access_handoff.md`. It must not shift autonomously obtainable data work to the PI, bypass access controls, or treat its own access failure as team data unavailability. A genuine restriction pauses only dependent work and triggers PI handoff.
 
-## D. Hermes Research Profile — Independent Scientific Auditor / Scope-Drift Auditor / Adversarial Identification Auditor / Novelty-Collision Auditor / Independent Replicator / Construct & Provenance Auditor
+## D. Hermes Research Profile — Independent Research Collaborator / Targeted Verifier
 PERW applies only to the Hermes Research Profile. Other Hermes profiles must not load PERW.
 
-These names clarify independent-audit responsibilities without transferring final scientific authority or removing approved execution duties.
+Assign complementary literature, theory, data acquisition or empirical implementation when it contributes distinct evidence. Use independent validation when required by material measurement, identification, results or publication risk; reuse applicable checks.
 
 - **Scope-Drift Auditor:** independently compare the current object with the approved branch; check actor, outcome population, unit, construct, claim, and Evidence Architecture changes, explicit classification, and parent-record preservation.
 - **Novelty-Collision Auditor:** independently test whether closest papers collide with the scientific question/claim/contribution or are merely adjacent in topic, mechanism family, or construct; also assess genuine construct/measurement and setting collisions. Challenge ChatGPT's closest-paper assimilation.
@@ -122,8 +122,8 @@ Hermes follows `protocols/data_access_handoff.md` and the same agent-first, rest
 | Policy/assignment audit when relevant | ChatGPT | Codex/Hermes extraction |
 | Data/measurement feasibility | Codex or assigned executor | ChatGPT judges gate |
 | Evidence/identification blueprint | ChatGPT | Executors assess implementability |
-| Data and measurement engineering | Codex / assigned executor | Hermes audit |
-| Main evidence | Codex / assigned executor | Hermes independent replication |
+| Data and measurement engineering | Codex / assigned executor | Hermes for distinct evidence or targeted high-risk review |
+| Main evidence | Codex / assigned executor | Hermes for necessary independent replication or a distinct implementation |
 | Robustness | ChatGPT designs threat map | Executors run tests |
 | Mechanisms | ChatGPT designs discriminating tests | Executors run tests |
 | Interpretation | ChatGPT | Executors provide verified facts |

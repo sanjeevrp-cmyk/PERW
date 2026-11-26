@@ -1,14 +1,20 @@
 # PERW Current Release
 
-CURRENT_VERSION: **v2.12**
+CURRENT_VERSION: **v3.0**
 STATUS: **stable**
-BREAKING_CHANGE_FROM_v2.11: **NO**
+BREAKING_CHANGE_FROM_v2.12: **YES**
 WORKFLOW_ENTRY: `core/WORKFLOW.md`
 PRINCIPLES: `core/PRINCIPLES.md`
 ROLE_ROUTING: `core/ROLE_ROUTING.md`
 CHANGELOG: `CHANGELOG.md`
 
 PERW supports controlled continuous improvement. Proposed changes must first pass `protocols/workflow_update_governance.md`; external ideas and project-specific experience are never adopted without assessment.
+
+## v3.0 breaking change
+
+Meaningful extensions, improved evidence and independent replications can pass the Competition / Contribution Gate. Routine low-risk data operations have standing authority, and clearly labeled exploration preserves the approved main result. Mature low-risk skills can be adopted complete and validated in real use. Scientific decisions are organized in four continuous work packages. Competition search uses three nodes and readiness is judged against the target journal’s initial submission requirements.
+
+Use v3.0 for new papers. Existing projects continue under their recorded version and official decisions until the PI approves a specific migration. Preserve historical release tags and frozen evidence.
 
 ## v2.12 minor change
 

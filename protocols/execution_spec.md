@@ -1,6 +1,6 @@
 # Execution Specification Protocol
 
-Minimum fields: PERW version; stage/gate; objective; Claim Type; Evidence Architecture; research objects (key construct, primary evidence, unit, geography, and causal objects when applicable); inputs; tasks; required outputs; evidence/decision criterion; prohibited actions; escalation conditions.
+Minimum fields for a continuous work package: PERW version; work package and relevant stage/gate; objective; Claim Type; Evidence Architecture; research objects (key construct, primary evidence, unit, geography, and causal objects when applicable); inputs; tasks; required outputs; evidence/decision criterion; prohibited actions; escalation conditions.
 
 For nontrivial data-bearing tasks also specify: `DATA_ACCESS_MODE`; expected autonomous sources; potential restricted sources; PI handoff trigger; branch pause condition; resume condition/checkpoint; and work that may continue independently. Default `DATA_ACCESS_MODE` is agent-first acquisition under `protocols/data_access_handoff.md`.
 
@@ -11,6 +11,8 @@ For nontrivial research tasks, apply `protocols/research_skill_routing.md`. Defa
 For method-intensive claim-bearing tasks, apply `protocols/method_runtime_readiness.md` and identify the readiness artifact and affected-branch decision. Do not add readiness fields to trivial tasks or treat readiness as scientific approval.
 
 ## Task completion and verification reuse
+
+Keep a decision and acceptance criterion for the work package. Internal Stage labels guide navigation. Continue within the same authorized work package and into any already authorized successor. Use Stage 6 standing authority for routine repairs and labeled exploration. Refer protected changes, added cost/access or unresolved material scientific risks to the appropriate decision owner; pause the affected branch only.
 
 Complete the requested work and its necessary consequences within the authorized scope, using the existing tasks, outputs and evidence/decision criteria. Reuse existing evidence while its version, inputs, rules and scope remain applicable. Run the minimum checks required by the acceptance criteria and identified risks; a plan or an easier subset is not task completion.
 

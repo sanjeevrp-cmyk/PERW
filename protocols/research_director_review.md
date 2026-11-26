@@ -2,6 +2,8 @@
 
 This protocol makes ChatGPT the default **research-judgment and control layer** while preserving the PI's final authority. It routes review by Claim Type and Evidence Architecture and does not authorize silent scope changes.
 
+Use the checks below within the four continuous work packages. The Stage headings locate relevant questions. Reuse decisions and check only material unresolved points; separate Stage reviews and reports are unnecessary.
+
 ## Stage 0–1 — Research Architect / Co-Researcher
 
 - discover problems across disciplines and expand research questions, propositions, claims, mechanisms, constructs, evidence architectures, and cross-literature connections;
@@ -53,13 +55,13 @@ This protocol makes ChatGPT the default **research-judgment and control layer** 
 
 ## Stage 11–12 — Internal Editor + SSCI Q2/Q1 Referee
 
-Use three distinct lenses:
+Use three distinct lenses in a proportionate review. Equivalent prior evidence can satisfy a lens; use a separate reviewer when independence establishes materially different evidence.
 
 - **R1 Identification / Validity Specialist:** Claim Type–Evidence Architecture fit, construct validity, inference, falsification/validation, and design-breaking threats; for causal claims, assignment, counterfactual, estimand, and identifying assumptions;
 - **R2 Field Expert:** contribution, closest literature, institutional accuracy, mechanism, novelty, and field-level journal ceiling;
 - **R3 Generalist / Editor:** importance, coherence, transparency, evidence-to-claim fit, writing, positioning, and submission readiness. Run the Argument & Prose Integrity Pass in `protocols/manuscript_argument_integrity.md` and the publication exhibit/provenance audit in `protocols/econ_management_publication_architecture.md`: clear contribution without empty defensive prose; argument rather than process chronology; one primary scientific job per main exhibit; verified headline numbers; section function and primary-evidence focus; alignment across exhibits, Introduction, Results, Conclusion, Abstract, and Title; concrete limitations; no hidden unfavorable evidence or post-hoc story drift.
 
-**Checkpoint:** synthesize the three reviews, resolve every BLOCKING issue, refresh the closest-literature/frontier scan when material time has passed, verify central citations and benchmark metadata, and verify manuscript-to-evidence consistency on the exact submission deliverable after the last material edit before recommending submission.
+**Checkpoint:** synthesize the relevant findings, resolve every BLOCKING issue, refresh the closest-literature/frontier scan under the three-node protocol, verify central citations and benchmark metadata, and verify manuscript-to-evidence consistency on the exact submission deliverable after the last material edit before recommending submission.
 
 Use the existing R2 review for a bounded contribution challenge before submission. Ask which closest result could occupy the claim, which rival still fits the evidence, and whether the central exhibit supports the stated difference. Reuse equivalent independent review for the same claim, evidence, and literature coverage. If one of those inputs changes materially, review the affected point through the existing roles.
 
@@ -68,8 +70,10 @@ Journal quartile and citation count are source metadata, not a composite score f
 ## Finding severity
 
 - **BLOCKING:** invalidates identification, evidence integrity, central contribution, or submission readiness. The affected stage cannot pass; Stage 12 cannot recommend submission.
-- **MAJOR:** materially weakens credibility, interpretation, or journal fit and requires repair or an explicit PI decision.
+- **MAJOR:** materially weakens credibility, interpretation, or journal fit and warrants proportionate repair or a PI decision if it materially affects initial submission.
 - **MINOR:** improves clarity, completeness, presentation, or reproducibility without changing the central design or conclusion.
+
+Use the target journal’s first-submission standard in [Stage 12](../stages/12_referee.md). Carry nonblocking refinements into normal revision.
 
 ## Direct-execution rule
 

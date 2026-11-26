@@ -11,3 +11,5 @@ Follow `protocols/manuscript_argument_integrity.md`:
 Also follow the approved map in `protocols/econ_management_publication_architecture.md`: verify results before claims, give each main exhibit one primary scientific job, distinguish precision from magnitude and causal meaning, and reconcile headline numbers after reruns or material edits.
 
 Verify citations and unresolved facts. Introduction, abstract, title, and conclusions must not upgrade descriptive, measurement, spatial, or associational evidence into causal language. A writing revision does not relax the frozen scope or authorize result-driven outcome switching.
+
+Use a small set of directly relevant, verified leading-journal exemplars and target-journal papers. Borrow argumentative moves, model exposition and exhibit structure while writing from this paper's own verified evidence. Use the publication architecture for a unified submission build. Check the journal's current author instructions and AI/disclosure rules for the work actually performed; choose author-led or tool-assisted steps accordingly.

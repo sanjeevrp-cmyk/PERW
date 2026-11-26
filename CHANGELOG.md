@@ -1,5 +1,15 @@
 # PERW Changelog
 
+## v3.0 — 2026-11-26
+
+**BREAKING · PI approved.**
+
+- Admit economically meaningful extensions, new evidence and independent replication.
+- Give routine low-risk data work standing authority and permit logged exploration without changing frozen main results.
+- Use mature native Skills and proportionate actual-use validation.
+- Execute four work packages, revisit competition at three nodes and apply the intended journal’s first-submission standard.
+- Existing projects retain adopted versions and frozen decisions until an explicit PI-approved migration.
+
 ## v2.12 — 2026-11-10
 
 ### MINOR change

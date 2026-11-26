@@ -2,18 +2,16 @@
 
 PERW is a personal research operating system for high-quality empirical economics, management, finance, and related research.
 
-Current stable release: **v2.12** (MINOR).
+Current stable release: **v3.0** (BREAKING).
 
-v2.12 connects the existing candidate and data-investment decisions to the [contribution handoff](protocols/econ_management_publication_architecture.md), evidence-led manuscript revision, and bounded contribution review. See [CURRENT](CURRENT.md) and [release notes](CHANGELOG.md#v212--2026-11-10).
-
-Research Skills implicit AUTO remains **NOT_PROVEN**. Verified evidence covers project-level discovery and bounded local **PINNED** application, not implicit host selection or scientific validity. Scientific authority and Stage/Gate rules are unchanged; active papers do not migrate automatically.
+Four work packages support established-design contributions and replications, standing authority for low-risk data work, mature native Skills, and target-journal first submission. Existing active papers keep their adopted versions. See [CURRENT](CURRENT.md) and [release notes](CHANGELOG.md#v30--2026-11-26).
 
 It is designed to be read automatically by:
 - **ChatGPT** — Research Director / Scientific Question Guardian / Research Architect / Identification Strategist / Literature Adversary / Evidence Integrator / Internal Editor
 - **Codex** — Primary Empirical Research Engineer / Data & Measurement Auditor / Identification Implementation Engineer / Reproducibility Owner
-- **Hermes Research Profile** — Independent Scientific Auditor / Scope-Drift Auditor / Adversarial Identification Auditor / Novelty-Collision Auditor / Independent Replicator / Construct & Provenance Auditor
+- **Hermes Research Profile** — Independent Research Collaborator / Targeted Verifier
 
-These names clarify responsibilities without changing authority. The PI remains Principal Investigator / Research Direction Owner / Final Scientific Authority. ChatGPT retains scientific review and recommendation, Codex approved implementation, and Hermes independent audit and approved execution.
+These names clarify responsibilities without changing authority. The PI remains Principal Investigator / Research Direction Owner / Final Scientific Authority. ChatGPT retains scientific review and recommendation, Codex authorized production and data work, and Hermes complementary research and independent verification where needed.
 
 PERW stores **how research should be conducted**. It does **not** store individual paper projects, unpublished ideas, private data, empirical results, or submission files.
 

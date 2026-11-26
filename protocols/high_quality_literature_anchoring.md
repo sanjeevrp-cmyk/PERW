@@ -73,7 +73,11 @@ For every major borrowed architecture, answer:
 5. What residual scientific contribution remains after the closest-paper comparison?
 6. What additional evidence does the adaptation require?
 
-Reject **benchmark paper → copy method → change country/year/sample → claim novelty**. Publication prestige does not make a method valid, and a successful design elsewhere does not establish support, identification, or contribution here.
+For consequential empirical choices supported by a published design, read the relevant methods, variable definitions and tables in the original. Inspect the relevant appendix and available replication code when they determine how a variable, sample, estimator or data treatment was implemented. Use the active Literature Map to locate this evidence. Extract the original definitions, sample and timing, model and inference, and data treatment to the extent they matter to the decision. Record the exact location and any material difference in the existing Map entry and refer to it from the paper's design or execution record. If the paper, code and reported sample diverge, state what each establishes and identify any unresolved point. Reuse equivalent verified evidence. Label inaccessible materials and narrow the claimed support to what was read.
+
+Prefer a suitable, executable published approach when it fits the research question and the actual fields, timing and institutions. Explain any proxy or other material adaptation and check its effect on the interpretation or usable sample. Theory- or institution-based designs can supply their own justification. Use the existing execution specification for routine data repairs and verification. For unfavorable results, first examine whether the implemented definitions, data alignment, sample support, specification and inference match the approved design. Preserve implemented specifications and outcomes, including unfavorable ones, and use the existing scope and review rules for scientific changes.
+
+A verified benchmark can anchor a valuable replication or extension. State the independent learning gained and test whether the original design transfers to the actual data and institutions. Publication prestige cannot supply missing validity or evidence.
 
 ## Closest-paper and frontier discipline
 
@@ -119,4 +123,10 @@ Preserve independent scientific divergence at Stage 1. Use literature anchoring 
 
 At Stages 6–10, a material new estimator, inference method, robustness test, mechanism, rival test, heterogeneity dimension, or construct variation requires a scientific job, appropriate literature anchor, frozen-design fit, named threat or assumption, and incremental information check before `protocols/method_runtime_readiness.md` where applicable.
 
-Before submission readiness, refresh the closest-literature and frontier search if material time has passed or the field has moved. Verify central literature claims, source identity, publication status, DOI, method/theory citations, and every formal Q1/Q2 claim.
+Use three competition-search nodes in the existing Literature Map. Record the search date, claim and the closest verified results; reuse equivalent coverage.
+
+1. At candidate selection and before formal design freeze, search the intended economic relation, X/Y synonyms, institution and the closest papers' citations and working versions. Before freeze fill only consequential gaps.
+2. When the first stable main table exists, search the actual finding and its boundary. Determine what the closest new or previously missed result occupies and what independent increment remains.
+3. Before first submission, refresh the literature published or updated since the prior search and check changed claims. Verify central citations, source identity, status, DOI and formal quartile claims where used.
+
+For a late apparent collision, identify the competing result, affected claim, surviving increment and cheapest defensible repair. Reuse the existing Map and continue unaffected work. Similar topics alone do not reopen the design.

@@ -26,11 +26,11 @@ Maintain Core Question, Claim Type, Identified Claim, Evidence Architecture, and
 ## 8. Viewpoint is a hypothesis, not truth
 A scholar's, adviser's, policymaker's, or theoretical viewpoint is an input to question generation. Convert it into **viewpoint → mechanism → falsifiable proposition → observable prediction → rival explanation → required evidence**. Test the proposition; do not search for data merely to confirm its source.
 
-## 9. Geographic narrowing is not contribution
-Moving from a broad geography to a narrower one is not itself novelty. The narrower setting must add scientific value through identification, measurement, mechanism, institutional variation, spatial interaction, data quality, external relevance, or another defensible reason.
+## 9. Setting, data and replication can contribute
+A meaningful institutional, geographic, temporal or sample extension, a stronger measure, an independent replication, or a new empirical relationship under an established framework can constitute a standalone contribution. Say what the target journal's reader learns about an important economic result, including its reliability, interpretation or boundary. A nominal substitution with no independent learning value is weak evidence of contribution.
 
-## 10. Architecture borrowing is not contribution
-Verified high-quality literature should anchor major question, construct, empirical-architecture, method, and exposition decisions. Translate benchmark literature into generalizable logic, test its fit, adapt it, and identify the residual contribution; publication prestige does not validate a method, and reproducing a design with only a different geography, year, sample, or outcome is not contribution.
+## 10. Learn from established designs
+Anchor consequential choices in verified literature and test fit with the actual fields, institutions and timing. Original theory or a new estimator is optional. Evaluate economic value, credibility, obtainable evidence, effort and journal fit together; a difficult design earns no preference merely for being difficult.
 
 ## 11. Cheap information before expensive work
 Do not spend expensive research effort before cheap evidence shows that the evidence required by a scientifically worthwhile question is sufficiently observable and implementable. Before deep literature, design, or data-engineering commitment, distinguish required, observable, and missing evidence and use minimum viable checks such as schema inspection, small representative audits, pilot extraction, support counts, identifier checks, construct checks, policy timing checks when relevant, and competition searches. Data ease does not determine which questions are scientifically valuable; it determines how much further effort is justified before feasibility is verified. Follow `protocols/early_data_feasibility.md` for Stage 1–2 candidates.

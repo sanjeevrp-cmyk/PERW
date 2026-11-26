@@ -82,3 +82,7 @@ The Research Director decides, within the approved scientific scope, which evide
 As required by the project, executors should be able to produce publication-ready tables and figures, self-contained notes, appendix exhibits, a result-provenance register, an exhibit-claim map, reproducible generation scripts, a machine-readable result registry, and a consistency report. Formats follow the project's canonical toolchain: LaTeX, DOCX, spreadsheets, HTML, or another approved format may be used. No format is universally required.
 
 When an installed skill would materially improve econometric implementation, evidence binding, result or claim verification, visualization, scientific writing, or code economy, route it through `protocols/research_skill_routing.md` and use only the smallest compatible set.
+
+## First-submission build
+
+Use one authoritative results/exhibit chain. Adopt an existing paper build or a suitable native production module. Generate the manuscript, tables, figures, supplement, bibliography and replication/disclosure items actually required by the target journal from the same approved inputs. Verify mapped headline numbers against authoritative results with the existing independent transcription check (or an equivalent), verify exhibit references and visually check the exact rendered package. Keep reusable build inputs and inspect only changed outputs and affected links. Ordinary layout edits use display and transcription checks; re-estimation is appropriate when underlying data, models or results change.
